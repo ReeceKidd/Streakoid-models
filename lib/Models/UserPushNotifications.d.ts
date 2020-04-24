@@ -1,5 +1,5 @@
 import { CustomStreakReminder, CompleteAllStreaksReminder } from './StreakReminders';
-interface UserPushNotifications {
+export interface UserPushNotifications {
     teamStreakUpdates: {
         enabled: boolean;
     };
@@ -12,5 +12,4 @@ interface UserPushNotifications {
     customStreakReminders: CustomStreakReminder[];
     completeAllStreaksReminder?: CompleteAllStreaksReminder;
 }
-export default UserPushNotifications;
 //# sourceMappingURL=UserPushNotifications.d.ts.map

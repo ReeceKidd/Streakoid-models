@@ -1,5 +1,5 @@
-import ChallengeMember from './ChallengeMember';
-interface PopulatedChallenge {
+import { ChallengeMember } from './ChallengeMember';
+export interface PopulatedChallenge {
     _id: string;
     databaseName: string;
     name: string;
@@ -14,5 +14,4 @@ interface PopulatedChallenge {
     whatsappGroupLink?: string;
     discordGroupLink?: string;
 }
-export default PopulatedChallenge;
 //# sourceMappingURL=PopulatedChallenge.d.ts.map

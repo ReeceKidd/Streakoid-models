@@ -1,7 +1,7 @@
-import CurrentStreak from './CurrentStreak';
-import PastStreak from './PastStreak';
 import StreakStatus from '../Types/StreakStatus';
-interface ChallengeStreak {
+import { CurrentStreak } from './CurrentStreak';
+import { PastStreak } from './PastStreak';
+export interface ChallengeStreak {
     _id: string;
     challengeId: string;
     userId: string;
@@ -14,5 +14,4 @@ interface ChallengeStreak {
     updatedAt: string;
     createdAt: string;
 }
-export default ChallengeStreak;
 //# sourceMappingURL=ChallengeStreak.d.ts.map

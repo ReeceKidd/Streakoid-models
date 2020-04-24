@@ -1,7 +1,7 @@
-import CurrentStreak from './CurrentStreak';
-import PastStreak from './PastStreak';
 import StreakStatus from '../Types/StreakStatus';
-interface SoloStreak {
+import { CurrentStreak } from './CurrentStreak';
+import { PastStreak } from './PastStreak';
+export interface SoloStreak {
     _id: string;
     userId: string;
     streakName: string;
@@ -16,5 +16,4 @@ interface SoloStreak {
     streakDescription?: string;
     numberOfMinutes?: number;
 }
-export default SoloStreak;
 //# sourceMappingURL=SoloStreak.d.ts.map

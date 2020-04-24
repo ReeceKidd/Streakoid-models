@@ -1,4 +1,4 @@
-interface Email {
+export interface Email {
     _id: string;
     name: string;
     email: string;
@@ -9,5 +9,4 @@ interface Email {
     userId?: string;
     username?: string;
 }
-export default Email;
 //# sourceMappingURL=Email.d.ts.map

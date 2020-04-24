@@ -1,4 +1,4 @@
-interface TeamMemberStreak {
+export interface TeamMemberStreak {
     _id: string;
     userId: string;
     teamStreakId: string;
@@ -18,5 +18,4 @@ interface TeamMemberStreak {
     createdAt: string;
     updatedAt: string;
 }
-export default TeamMemberStreak;
 //# sourceMappingURL=TeamMemberStreak.d.ts.map

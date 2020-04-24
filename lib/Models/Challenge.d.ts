@@ -1,4 +1,4 @@
-interface Challenge {
+export interface Challenge {
     _id: string;
     databaseName: string;
     name: string;
@@ -13,5 +13,4 @@ interface Challenge {
     whatsappGroupLink?: string;
     discordGroupLink?: string;
 }
-export default Challenge;
 //# sourceMappingURL=Challenge.d.ts.map

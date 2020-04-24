@@ -1,1 +1,1 @@
-{"version":3,"file":"CurrentStreak.d.ts","sourceRoot":"","sources":["../../src/Models/CurrentStreak.ts"],"names":[],"mappings":"AAAA,UAAU,aAAa;IACnB,kBAAkB,EAAE,MAAM,CAAC;IAC3B,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,OAAO,CAAC,EAAE,MAAM,CAAC;CACpB;AAED,eAAe,aAAa,CAAC"}
+{"version":3,"file":"CurrentStreak.d.ts","sourceRoot":"","sources":["../../src/Models/CurrentStreak.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAC1B,kBAAkB,EAAE,MAAM,CAAC;IAC3B,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,OAAO,CAAC,EAAE,MAAM,CAAC;CACpB"}

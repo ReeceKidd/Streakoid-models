@@ -1,4 +1,4 @@
-interface IncompleteSoloStreakTask {
+export interface IncompleteSoloStreakTask {
     _id: string;
     streakId: string;
     userId: string;
@@ -7,5 +7,4 @@ interface IncompleteSoloStreakTask {
     createdAt: string;
     updatedAt: string;
 }
-export default IncompleteSoloStreakTask;
 //# sourceMappingURL=IncompleteSoloStreakTask.d.ts.map

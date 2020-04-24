@@ -1,9 +1,9 @@
-import ProfileImages from './ProfileImages';
-import PastSubscription from './PastSubscription';
-import UserAchievement from './UserAchievement';
 import UserTypes from '../Types/UserTypes';
-import UserPushNotifications from './UserPushNotifications';
-interface User {
+import { PastSubscription } from './PastSubscription';
+import { ProfileImages } from './ProfileImages';
+import { UserAchievement } from './UserAchievement';
+import { UserPushNotifications } from './UserPushNotifications';
+export interface User {
     _id: string;
     username: string;
     membershipInformation: {
@@ -28,5 +28,4 @@ interface User {
     createdAt: string;
     updatedAt: string;
 }
-export default User;
 //# sourceMappingURL=User.d.ts.map

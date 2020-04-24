@@ -1,4 +1,4 @@
-interface IncompleteTeamMemberStreakTask {
+export interface IncompleteTeamMemberStreakTask {
     _id: string;
     streakId: string;
     userId: string;
@@ -9,5 +9,4 @@ interface IncompleteTeamMemberStreakTask {
     updatedAt: string;
     teamStreakId?: string;
 }
-export default IncompleteTeamMemberStreakTask;
 //# sourceMappingURL=IncompleteTeamMemberStreakTask.d.ts.map

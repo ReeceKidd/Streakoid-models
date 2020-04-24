@@ -1,4 +1,4 @@
-interface CompleteSoloStreakTask {
+export interface CompleteSoloStreakTask {
     _id: string;
     streakId: string;
     userId: string;
@@ -7,5 +7,4 @@ interface CompleteSoloStreakTask {
     createdAt: string;
     updatedAt: string;
 }
-export default CompleteSoloStreakTask;
 //# sourceMappingURL=CompleteSoloStreakTask.d.ts.map

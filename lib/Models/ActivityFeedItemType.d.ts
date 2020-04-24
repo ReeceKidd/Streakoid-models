@@ -289,7 +289,7 @@ export interface FollowedUserActivityFeedItem {
     createdAt?: string;
     _id?: string;
 }
-declare type ActivityFeedItemType =
+export declare type ActivityFeedItemType =
     | CreatedSoloStreakActivityFeedItem
     | ArchivedSoloStreakActivityFeedItem
     | RestoredSoloStreakActivityFeedItem
@@ -318,5 +318,4 @@ declare type ActivityFeedItemType =
     | LostTeamStreakActivityFeedItem
     | CreatedAccountActivityFeedItem
     | FollowedUserActivityFeedItem;
-export default ActivityFeedItemType;
 //# sourceMappingURL=ActivityFeedItemType.d.ts.map

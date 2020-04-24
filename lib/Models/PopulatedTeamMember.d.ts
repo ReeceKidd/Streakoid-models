@@ -1,9 +1,8 @@
-import TeamMemberStreak from './TeamMemberStreak';
-interface PopulatedTeamMember {
+import { TeamMemberStreak } from './TeamMemberStreak';
+export interface PopulatedTeamMember {
     _id: string;
     username: string;
     profileImage: string;
     teamMemberStreak: TeamMemberStreak;
 }
-export default PopulatedTeamMember;
 //# sourceMappingURL=PopulatedTeamMember.d.ts.map

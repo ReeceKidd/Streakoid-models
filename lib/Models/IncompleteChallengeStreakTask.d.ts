@@ -1,4 +1,4 @@
-interface IncompleteChallengeStreakTask {
+export interface IncompleteChallengeStreakTask {
     _id: string;
     challengeStreakId: string;
     userId: string;
@@ -7,5 +7,4 @@ interface IncompleteChallengeStreakTask {
     createdAt: string;
     updatedAt: string;
 }
-export default IncompleteChallengeStreakTask;
 //# sourceMappingURL=IncompleteChallengeStreakTask.d.ts.map

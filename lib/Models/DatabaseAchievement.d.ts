@@ -1,6 +1,6 @@
 import AchievmentTypes from '../Types/AchievementTypes';
-declare type DatabaseAchievementType = OneHundredDaySoloStreakDatabaseAchievement;
-interface DatabaseAchievement {
+export declare type DatabaseAchievementType = OneHundredDaySoloStreakDatabaseAchievement;
+export interface DatabaseAchievement {
     _id: string;
     createdAt: string;
     updatedAt: string;
@@ -10,5 +10,4 @@ export interface OneHundredDaySoloStreakDatabaseAchievement extends DatabaseAchi
     name: string;
     description: string;
 }
-export default DatabaseAchievementType;
 //# sourceMappingURL=DatabaseAchievement.d.ts.map

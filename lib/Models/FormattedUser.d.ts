@@ -1,6 +1,6 @@
-import ProfileImages from './ProfileImages';
 import UserTypes from '../Types/UserTypes';
-interface FormattedUser {
+import { ProfileImages } from './ProfileImages';
+export interface FormattedUser {
     _id: string;
     username: string;
     isPayingMember: boolean;
@@ -11,5 +11,4 @@ interface FormattedUser {
     profileImages: ProfileImages;
     pushNotificationToken: string;
 }
-export default FormattedUser;
 //# sourceMappingURL=FormattedUser.d.ts.map

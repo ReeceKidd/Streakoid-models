@@ -1,8 +1,8 @@
-import TeamMember from './TeamMember';
 import StreakStatus from '../Types/StreakStatus';
-import CurrentStreak from './CurrentStreak';
-import PastStreak from './PastStreak';
-interface TeamStreak {
+import { CurrentStreak } from './CurrentStreak';
+import { PastStreak } from './PastStreak';
+import { TeamMember } from './TeamMember';
+export interface TeamStreak {
     _id: string;
     creatorId: string;
     streakName: string;
@@ -18,5 +18,4 @@ interface TeamStreak {
     streakDescription?: string;
     numberOfMinutes?: number;
 }
-export default TeamStreak;
 //# sourceMappingURL=TeamStreak.d.ts.map

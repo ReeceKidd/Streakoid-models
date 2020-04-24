@@ -1,8 +1,8 @@
-import BasicUser from './BasicUser';
-import ProfileImages from './ProfileImages';
-import DatabaseAchievementType from './DatabaseAchievement';
 import UserTypes from '../Types/UserTypes';
-interface PopulatedUser {
+import { DatabaseAchievementType } from './DatabaseAchievement';
+import { BasicUser } from './BasicUser';
+import { ProfileImages } from './ProfileImages';
+export interface PopulatedUser {
     _id: string;
     username: string;
     isPayingMember: boolean;
@@ -16,5 +16,4 @@ interface PopulatedUser {
     profileImages: ProfileImages;
     pushNotificationToken: string;
 }
-export default PopulatedUser;
 //# sourceMappingURL=PopulatedUser.d.ts.map
