@@ -1,7 +1,7 @@
-import ProfileImages from './ProfileImages';
 import UserTypes from '../Types/UserTypes';
+import { ProfileImages } from './ProfileImages';
 
-interface FormattedUser {
+export interface FormattedUser {
     _id: string;
     username: string;
     isPayingMember: boolean;
@@ -12,5 +12,3 @@ interface FormattedUser {
     profileImages: ProfileImages;
     pushNotificationToken: string;
 }
-
-export default FormattedUser;

@@ -1,11 +1,11 @@
-import ProfileImages from './ProfileImages';
-import PastSubscription from './PastSubscription';
-import BasicUser from './BasicUser';
-import DatabaseAchievementType from './DatabaseAchievement';
 import UserTypes from '../Types/UserTypes';
-import UserPushNotifications from './UserPushNotifications';
+import { PastSubscription } from './PastSubscription';
+import { BasicUser } from './BasicUser';
+import { DatabaseAchievementType } from './DatabaseAchievement';
+import { ProfileImages } from './ProfileImages';
+import { UserPushNotifications } from './UserPushNotifications';
 
-interface PopulatedCurrentUser {
+export interface PopulatedCurrentUser {
     _id: string;
     username: string;
     membershipInformation: {
@@ -26,5 +26,3 @@ interface PopulatedCurrentUser {
     createdAt: string;
     updatedAt: string;
 }
-
-export default PopulatedCurrentUser;

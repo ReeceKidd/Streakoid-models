@@ -1,9 +1,9 @@
-import BasicUser from './BasicUser';
-import ProfileImages from './ProfileImages';
-import DatabaseAchievementType from './DatabaseAchievement';
 import UserTypes from '../Types/UserTypes';
+import { DatabaseAchievementType } from './DatabaseAchievement';
+import { BasicUser } from './BasicUser';
+import { ProfileImages } from './ProfileImages';
 
-interface PopulatedUser {
+export interface PopulatedUser {
     _id: string;
     username: string;
     isPayingMember: boolean;
@@ -17,5 +17,3 @@ interface PopulatedUser {
     profileImages: ProfileImages;
     pushNotificationToken: string;
 }
-
-export default PopulatedUser;

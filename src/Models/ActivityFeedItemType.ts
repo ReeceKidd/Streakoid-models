@@ -318,7 +318,7 @@ export interface FollowedUserActivityFeedItem {
     _id?: string;
 }
 
-type ActivityFeedItemType =
+export type ActivityFeedItemType =
     | CreatedSoloStreakActivityFeedItem
     | ArchivedSoloStreakActivityFeedItem
     | RestoredSoloStreakActivityFeedItem
@@ -347,5 +347,3 @@ type ActivityFeedItemType =
     | LostTeamStreakActivityFeedItem
     | CreatedAccountActivityFeedItem
     | FollowedUserActivityFeedItem;
-
-export default ActivityFeedItemType;

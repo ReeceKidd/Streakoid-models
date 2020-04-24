@@ -1,7 +1,7 @@
 import StreakTrackingEventTypes from '../Types/StreakTrackingEventTypes';
 import StreakTypes from '../Types/StreakTypes';
 
-interface StreakTrackingEvent {
+export interface StreakTrackingEvent {
     _id: string;
     type: StreakTrackingEventTypes;
     streakId: string;
@@ -10,5 +10,3 @@ interface StreakTrackingEvent {
     createdAt: string;
     updatedAt: string;
 }
-
-export default StreakTrackingEvent;

@@ -1,4 +1,4 @@
-interface CompleteChallengeStreakTask {
+export interface CompleteChallengeStreakTask {
     _id: string;
     challengeStreakId: string;
     userId: string;
@@ -7,5 +7,3 @@ interface CompleteChallengeStreakTask {
     createdAt: string;
     updatedAt: string;
 }
-
-export default CompleteChallengeStreakTask;

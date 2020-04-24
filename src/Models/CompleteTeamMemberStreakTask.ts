@@ -1,4 +1,4 @@
-interface CompleteTeamMemberStreakTask {
+export interface CompleteTeamMemberStreakTask {
     _id: string;
     streakId: string;
     userId: string;
@@ -9,5 +9,3 @@ interface CompleteTeamMemberStreakTask {
     updatedAt: string;
     teamStreakId?: string;
 }
-
-export default CompleteTeamMemberStreakTask;

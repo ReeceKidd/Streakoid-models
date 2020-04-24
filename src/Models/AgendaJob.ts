@@ -1,4 +1,4 @@
-interface AgendaJob {
+export interface AgendaJob {
     _id: string;
     name: string;
     data: object;
@@ -8,5 +8,3 @@ interface AgendaJob {
     lockedAt: string;
     lastFinishedAt: Date;
 }
-
-export default AgendaJob;

@@ -48,6 +48,7 @@ import PushNotificationTypes from './Types/PushNotificationTypes';
 import StreakReminderTypes from './Types/StreakReminderTypes';
 import AchievementTypes from './Types/AchievementTypes';
 import AchievementEventTypes from './Types/AchievementEventTypes';
+import TeamStreakRouterCategories from './Types/TeamStreakRouterCategories';
 export {
     AgendaJob,
     CompleteTeamMemberStreakTask,
@@ -99,5 +100,6 @@ export {
     StreakReminderTypes,
     AchievementTypes,
     AchievementEventTypes,
+    TeamStreakRouterCategories,
 };
 //# sourceMappingURL=index.d.ts.map

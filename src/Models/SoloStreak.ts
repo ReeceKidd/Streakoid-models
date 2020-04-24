@@ -1,8 +1,8 @@
-import CurrentStreak from './CurrentStreak';
-import PastStreak from './PastStreak';
 import StreakStatus from '../Types/StreakStatus';
+import { CurrentStreak } from './CurrentStreak';
+import { PastStreak } from './PastStreak';
 
-interface SoloStreak {
+export interface SoloStreak {
     _id: string;
     userId: string;
     streakName: string;
@@ -17,5 +17,3 @@ interface SoloStreak {
     streakDescription?: string;
     numberOfMinutes?: number;
 }
-
-export default SoloStreak;

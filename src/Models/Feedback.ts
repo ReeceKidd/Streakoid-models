@@ -1,4 +1,4 @@
-interface Feedback {
+export interface Feedback {
     _id: string;
     userId: string;
     pageUrl: string;
@@ -6,5 +6,3 @@ interface Feedback {
     userEmail: string;
     feedbackText: string;
 }
-
-export default Feedback;

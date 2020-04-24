@@ -1,8 +1,8 @@
-import CurrentStreak from './CurrentStreak';
-import PastStreak from './PastStreak';
 import StreakStatus from '../Types/StreakStatus';
+import { CurrentStreak } from './CurrentStreak';
+import { PastStreak } from './PastStreak';
 
-interface ChallengeStreak {
+export interface ChallengeStreak {
     _id: string;
     challengeId: string;
     userId: string;
@@ -15,5 +15,3 @@ interface ChallengeStreak {
     updatedAt: string;
     createdAt: string;
 }
-
-export default ChallengeStreak;

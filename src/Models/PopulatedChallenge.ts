@@ -1,6 +1,6 @@
-import ChallengeMember from './ChallengeMember';
+import { ChallengeMember } from './ChallengeMember';
 
-interface PopulatedChallenge {
+export interface PopulatedChallenge {
     _id: string;
     databaseName: string;
     name: string;
@@ -15,5 +15,3 @@ interface PopulatedChallenge {
     whatsappGroupLink?: string;
     discordGroupLink?: string;
 }
-
-export default PopulatedChallenge;

@@ -1,9 +1,9 @@
-import PopulatedTeamMember from './PopulatedTeamMember';
-import PastStreak from './PastStreak';
 import StreakStatus from '../Types/StreakStatus';
-import CurrentStreak from './CurrentStreak';
+import { CurrentStreak } from './CurrentStreak';
+import { PastStreak } from './PastStreak';
+import { PopulatedTeamMember } from './PopulatedTeamMember';
 
-interface PopulatedTeamStreak {
+export interface PopulatedTeamStreak {
     _id: string;
     creatorId: string;
     streakName: string;
@@ -23,5 +23,3 @@ interface PopulatedTeamStreak {
     streakDescription?: string;
     numberOfMinutes?: number;
 }
-
-export default PopulatedTeamStreak;

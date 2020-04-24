@@ -1,7 +1,7 @@
 import StreakTypes from '../Types/StreakTypes';
 import AgendaJobNames from '../Types/AgendaJobNames';
 
-interface DailyJob {
+export interface DailyJob {
     _id: string;
     agendaJobId: string;
     jobName: AgendaJobNames;
@@ -11,5 +11,3 @@ interface DailyJob {
     createdAt: string;
     updatedAt: string;
 }
-
-export default DailyJob;

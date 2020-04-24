@@ -1,4 +1,4 @@
-interface Note {
+export interface Note {
     _id: string;
     userId: string;
     subjectId: string;
@@ -6,5 +6,3 @@ interface Note {
     updatedAt: string;
     createdAt: string;
 }
-
-export default Note;

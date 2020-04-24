@@ -1,4 +1,4 @@
-interface CompleteTeamStreak {
+export interface CompleteTeamStreak {
     _id: string;
     teamStreakId: string;
     taskCompleteTime: Date;
@@ -6,5 +6,3 @@ interface CompleteTeamStreak {
     createdAt: string;
     updatedAt: string;
 }
-
-export default CompleteTeamStreak;
