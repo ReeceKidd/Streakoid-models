@@ -1,6 +1,16 @@
-import PushNotificationTypes from "../Types/PushNotificationTypes";
-export declare type PushNotificationType = CustomStreakReminderPushNotification | CompleteAllStreaksReminderPushNotification | CompletedTeamStreakUpdatePushNotification | IncompletedTeamStreakUpdatePushNotification | AddedNoteToTeamStreakPushNotification | NewFollowerPushNotification | UnlockedAchievementPushNotification;
-export declare type CustomStreakReminderPushNotification = CustomSoloStreakReminderPushNotification | CustomChallengeStreakReminderPushNotification | CustomTeamStreakReminderPushNotification;
+import PushNotificationTypes from '../Types/PushNotificationTypes';
+export declare type PushNotificationType =
+    | CustomStreakReminderPushNotification
+    | CompleteAllStreaksReminderPushNotification
+    | CompletedTeamStreakUpdatePushNotification
+    | IncompletedTeamStreakUpdatePushNotification
+    | AddedNoteToTeamStreakPushNotification
+    | NewFollowerPushNotification
+    | UnlockedAchievementPushNotification;
+export declare type CustomStreakReminderPushNotification =
+    | CustomSoloStreakReminderPushNotification
+    | CustomChallengeStreakReminderPushNotification
+    | CustomTeamStreakReminderPushNotification;
 export interface CustomSoloStreakReminderPushNotification {
     pushNotificationType: PushNotificationTypes.customSoloStreakReminder;
     soloStreakId: string;

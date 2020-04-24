@@ -1,4 +1,4 @@
-import AchievementTypes from "../Types/AchievementTypes";
+import AchievementTypes from '../Types/AchievementTypes';
 declare type AchievementType = OneHundredDaySoloStreakAchievement;
 export interface OneHundredDaySoloStreakAchievement {
     achievementType: AchievementTypes.oneHundredDaySoloStreak;

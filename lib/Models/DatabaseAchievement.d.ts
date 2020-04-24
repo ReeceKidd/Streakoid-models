@@ -1,4 +1,4 @@
-import AchievmentTypes from "../Types/AchievementTypes";
+import AchievmentTypes from '../Types/AchievementTypes';
 declare type DatabaseAchievementType = OneHundredDaySoloStreakDatabaseAchievement;
 interface DatabaseAchievement {
     _id: string;

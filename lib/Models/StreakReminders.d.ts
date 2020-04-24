@@ -1,6 +1,9 @@
-import StreakReminderTypes from "../Types/StreakReminderTypes";
+import StreakReminderTypes from '../Types/StreakReminderTypes';
 export declare type StreakReminderType = CustomStreakReminder | CompleteAllStreaksReminder;
-export declare type CustomStreakReminder = CustomSoloStreakReminder | CustomChallengeStreakReminder | CustomTeamStreakReminder;
+export declare type CustomStreakReminder =
+    | CustomSoloStreakReminder
+    | CustomChallengeStreakReminder
+    | CustomTeamStreakReminder;
 export interface StreakReminder {
     enabled: boolean;
     expoId: string;

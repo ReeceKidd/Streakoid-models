@@ -1,4 +1,4 @@
-import ActivityFeedItemTypes from "../Types/ActivityFeedItemTypes";
+import ActivityFeedItemTypes from '../Types/ActivityFeedItemTypes';
 export interface CreatedSoloStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.createdSoloStreak;
     userId: string;
@@ -289,6 +289,34 @@ export interface FollowedUserActivityFeedItem {
     createdAt?: string;
     _id?: string;
 }
-declare type ActivityFeedItemType = CreatedSoloStreakActivityFeedItem | ArchivedSoloStreakActivityFeedItem | RestoredSoloStreakActivityFeedItem | DeletedSoloStreakActivityFeedItem | EditedSoloStreakNameActivityFeedItem | EditedSoloStreakDescriptionActivityFeedItem | CompletedSoloStreakActivityFeedItem | IncompletedSoloStreakActivityFeedItem | LostSoloStreakActivityFeedItem | CompletedChallengeStreakActivityFeedItem | IncompletedChallengeStreakActivityFeedItem | JoinedChallengeActivityFeedItem | ArchivedChallengeStreakActivityFeedItem | RestoredChallengeStreakActivityFeedItem | DeletedChallengeStreakActivityFeedItem | LostChallengeStreakActivityFeedItem | CreatedTeamStreakActivityFeedItem | ArchivedTeamStreakActivityFeedItem | RestoredTeamStreakActivityFeedItem | DeletedTeamStreakActivityFeedItem | CompletedTeamMemberStreakActivityFeedItem | IncompletedTeamMemberStreakActivityFeedItem | JoinedTeamStreakActivityFeedItem | EditedTeamStreakNameActivityFeedItem | EditedTeamStreakDescriptionActivityFeedItem | LostTeamStreakActivityFeedItem | CreatedAccountActivityFeedItem | FollowedUserActivityFeedItem;
+declare type ActivityFeedItemType =
+    | CreatedSoloStreakActivityFeedItem
+    | ArchivedSoloStreakActivityFeedItem
+    | RestoredSoloStreakActivityFeedItem
+    | DeletedSoloStreakActivityFeedItem
+    | EditedSoloStreakNameActivityFeedItem
+    | EditedSoloStreakDescriptionActivityFeedItem
+    | CompletedSoloStreakActivityFeedItem
+    | IncompletedSoloStreakActivityFeedItem
+    | LostSoloStreakActivityFeedItem
+    | CompletedChallengeStreakActivityFeedItem
+    | IncompletedChallengeStreakActivityFeedItem
+    | JoinedChallengeActivityFeedItem
+    | ArchivedChallengeStreakActivityFeedItem
+    | RestoredChallengeStreakActivityFeedItem
+    | DeletedChallengeStreakActivityFeedItem
+    | LostChallengeStreakActivityFeedItem
+    | CreatedTeamStreakActivityFeedItem
+    | ArchivedTeamStreakActivityFeedItem
+    | RestoredTeamStreakActivityFeedItem
+    | DeletedTeamStreakActivityFeedItem
+    | CompletedTeamMemberStreakActivityFeedItem
+    | IncompletedTeamMemberStreakActivityFeedItem
+    | JoinedTeamStreakActivityFeedItem
+    | EditedTeamStreakNameActivityFeedItem
+    | EditedTeamStreakDescriptionActivityFeedItem
+    | LostTeamStreakActivityFeedItem
+    | CreatedAccountActivityFeedItem
+    | FollowedUserActivityFeedItem;
 export default ActivityFeedItemType;
 //# sourceMappingURL=ActivityFeedItemType.d.ts.map
