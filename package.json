@@ -34,11 +34,6 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint&& pretty-quick --staged --verbose"
-    }
-  },
   "directories": {
     "lib": "lib",
     "test": "tests"
