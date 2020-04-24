@@ -1,7 +1,7 @@
 import PopulatedTeamMember from './PopulatedTeamMember';
-import StreakStatus from '../StreakStatus';
-import { CurrentStreak } from '..';
 import PastStreak from './PastStreak';
+import StreakStatus from '../Types/StreakStatus';
+import CurrentStreak from './CurrentStreak';
 
 interface PopulatedTeamStreak {
     _id: string;

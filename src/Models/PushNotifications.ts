@@ -1,4 +1,5 @@
-import PushNotificationTypes from '../PushNotificationTypes';
+import PushNotificationTypes from "../Types/PushNotificationTypes";
+
 
 export type PushNotificationType =
     | CustomStreakReminderPushNotification

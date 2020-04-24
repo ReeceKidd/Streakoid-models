@@ -1,4 +1,4 @@
-import StreakReminderTypes from '../StreakReminderTypes';
+import StreakReminderTypes from "../Types/StreakReminderTypes";
 
 export type StreakReminderType = CustomStreakReminder | CompleteAllStreaksReminder;
 

@@ -1,4 +1,4 @@
-import { AchievementTypes } from '..';
+import AchievmentTypes from "../Types/AchievementTypes";
 
 type DatabaseAchievementType = OneHundredDaySoloStreakDatabaseAchievement;
 
@@ -9,7 +9,7 @@ interface DatabaseAchievement {
 }
 
 export interface OneHundredDaySoloStreakDatabaseAchievement extends DatabaseAchievement {
-    achievementType: AchievementTypes.oneHundredDaySoloStreak;
+    achievementType: AchievmentTypes.oneHundredDaySoloStreak,
     name: string;
     description: string;
 }

@@ -1,8 +1,8 @@
-import UserTypes from '../userTypes';
+
 import BasicUser from './BasicUser';
 import ProfileImages from './ProfileImages';
-import Friend from './Friend';
 import DatabaseAchievementType from './DatabaseAchievement';
+import UserTypes from '../Types/UserTypes';
 
 interface PopulatedUser {
     _id: string;
@@ -10,7 +10,6 @@ interface PopulatedUser {
     isPayingMember: boolean;
     userType: UserTypes;
     timezone: string;
-    friends: Friend[];
     followers: BasicUser[];
     following: BasicUser[];
     achievements: DatabaseAchievementType[];

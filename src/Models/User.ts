@@ -1,12 +1,10 @@
 import ProfileImages from './ProfileImages';
 import PastSubscription from './PastSubscription';
-import UserTypes from '../userTypes';
-import Friend from './Friend';
-import BasicUser from './BasicUser';
-import { UserPushNotifications } from '..';
-import DatabaseAchievementType from './DatabaseAchievement';
+import UserAchievement from './UserAchievement';
+import UserTypes from '../Types/UserTypes';
+import UserPushNotifications from './UserPushNotifications';
 
-interface PopulatedCurrentUser {
+interface User {
     _id: string;
     username: string;
     membershipInformation: {
@@ -17,10 +15,13 @@ interface PopulatedCurrentUser {
     email: string;
     userType: UserTypes;
     timezone: string;
-    following: BasicUser[];
-    followers: BasicUser[];
-    friends: Friend[];
-    achievements: DatabaseAchievementType[];
+    followers: string[];
+    following: string[];
+    achievements: UserAchievement[];
+    stripe: {
+        customer: string;
+        subscription: string;
+    };
     profileImages: ProfileImages;
     pushNotificationToken: string;
     pushNotifications: UserPushNotifications;
@@ -29,4 +30,4 @@ interface PopulatedCurrentUser {
     updatedAt: string;
 }
 
-export default PopulatedCurrentUser;
+export default User;

@@ -1,5 +1,6 @@
-import StreakTypes from '../StreakTypes';
-import { AgendaJobNames } from '..';
+import StreakTypes from "../Types/streakTypes";
+import AgendaJobNames from "../Types/AgendaJobNames";
+
 
 interface DailyJob {
     _id: string;

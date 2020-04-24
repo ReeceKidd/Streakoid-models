@@ -1,6 +1,6 @@
-import UserTypes from '../userTypes';
+
 import ProfileImages from './ProfileImages';
-import Friend from './Friend';
+import UserTypes from '../Types/UserTypes';
 
 interface FormattedUser {
     _id: string;
@@ -8,7 +8,6 @@ interface FormattedUser {
     isPayingMember: boolean;
     userType: UserTypes;
     timezone: string;
-    friends: Friend[];
     createdAt: string;
     updatedAt: string;
     profileImages: ProfileImages;

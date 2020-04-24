@@ -1,4 +1,5 @@
-import ActivityFeedItemTypes from '../ActivityFeedItemTypes';
+import ActivityFeedItemTypes from "../Types/ActivityFeedItemTypes";
+
 
 export interface CreatedSoloStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.createdSoloStreak;

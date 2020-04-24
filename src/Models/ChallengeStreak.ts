@@ -1,6 +1,6 @@
 import CurrentStreak from './CurrentStreak';
-import StreakStatus from '../StreakStatus';
 import PastStreak from './PastStreak';
+import StreakStatus from '../Types/StreakStatus';
 
 interface ChallengeStreak {
     _id: string;

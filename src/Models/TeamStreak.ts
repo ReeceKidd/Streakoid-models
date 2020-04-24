@@ -1,6 +1,8 @@
-import StreakStatus from '../StreakStatus';
-import { CurrentStreak, PastStreak } from '..';
+
 import TeamMember from './TeamMember';
+import StreakStatus from '../Types/StreakStatus';
+import CurrentStreak from './CurrentStreak';
+import PastStreak from './PastStreak';
 
 interface TeamStreak {
     _id: string;
