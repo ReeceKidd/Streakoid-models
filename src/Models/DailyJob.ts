@@ -1,4 +1,4 @@
-import StreakTypes from "../Types/streakTypes";
+import StreakTypes from "../Types/StreakTypes";
 import AgendaJobNames from "../Types/AgendaJobNames";
 
 

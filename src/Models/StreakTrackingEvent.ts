@@ -1,5 +1,5 @@
 import StreakTrackingEventTypes from "../Types/StreakTrackingEventTypes";
-import StreakTypes from "../Types/streakTypes";
+import StreakTypes from "../Types/StreakTypes";
 
 interface StreakTrackingEvent {
     _id: string;
