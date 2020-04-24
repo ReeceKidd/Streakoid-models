@@ -1,5 +1,5 @@
 enum AchievmentEventTypes {
-    unlockedAcheivement = 'unlockedAcheivement',
+  unlockedAcheivement = "unlockedAcheivement"
 }
 
 export default AchievmentEventTypes;

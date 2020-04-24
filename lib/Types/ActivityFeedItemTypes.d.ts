@@ -1,0 +1,32 @@
+export declare enum ActivityFeedItemTypes {
+    createdSoloStreak = "createdSoloStreak",
+    archivedSoloStreak = "archivedSoloStreak",
+    restoredSoloStreak = "restoredSoloStreak",
+    deletedSoloStreak = "deletedSoloStreak",
+    editedSoloStreakName = "editedSoloStreakName",
+    editedSoloStreakDescription = "editedSoloStreakDescription",
+    completedSoloStreak = "completedSoloStreak",
+    incompletedSoloStreak = "incompletedSoloStreak",
+    lostSoloStreak = "lostSoloStreak",
+    completedChallengeStreak = "completedChallengeStreak",
+    incompletedChallengeStreak = "incompletedChallengeStreak",
+    joinedChallenge = "joinedChallenge",
+    archivedChallengeStreak = "archivedChallengeStreak",
+    restoredChallengeStreak = "restoredChallengeStreak",
+    deletedChallengeStreak = "deletedChallengeStreak",
+    lostChallengeStreak = "lostChallengeStreak",
+    createdTeamStreak = "createdTeamStreak",
+    archivedTeamStreak = "archivedTeamStreak",
+    restoredTeamStreak = "restoredTeamStreak",
+    deletedTeamStreak = "deletedTeamStreak",
+    editedTeamStreakName = "editedTeamStreakName",
+    editedTeamStreakDescription = "editedTeamStreakDescription",
+    completedTeamMemberStreak = "completedTeamMemberStreak",
+    incompletedTeamMemberStreak = "incompletedTeamMemberStreak",
+    joinedTeamStreak = "joinedTeamStreak",
+    lostTeamStreak = "lostTeamStreak",
+    createdAccount = "createdAccount",
+    followedUser = "followedUser"
+}
+export default ActivityFeedItemTypes;
+//# sourceMappingURL=ActivityFeedItemTypes.d.ts.map

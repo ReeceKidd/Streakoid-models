@@ -1,5 +1,5 @@
 enum AchievmentTypes {
-    oneHundredDaySoloStreak = 'oneHundredDaySoloStreak',
+  oneHundredDaySoloStreak = "oneHundredDaySoloStreak"
 }
 
 export default AchievmentTypes;
