@@ -16,6 +16,7 @@ export interface User {
     timezone: string;
     followers: string[];
     following: string[];
+    totalStreakCompletes: number;
     achievements: UserAchievement[];
     stripe: {
         customer: string;

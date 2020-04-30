@@ -1,1 +1,1 @@
-{"version":3,"file":"UserAchievement.d.ts","sourceRoot":"","sources":["../../src/Models/UserAchievement.ts"],"names":[],"mappings":"AAAA,OAAO,eAAe,MAAM,2BAA2B,CAAC;AAExD,MAAM,WAAW,eAAe;IAC5B,GAAG,EAAE,MAAM,CAAC;IACZ,eAAe,EAAE,eAAe,CAAC;CACpC"}
+{"version":3,"file":"UserAchievement.d.ts","sourceRoot":"","sources":["../../src/Models/UserAchievement.ts"],"names":[],"mappings":"AAAA,OAAO,gBAAgB,MAAM,2BAA2B,CAAC;AAEzD,MAAM,WAAW,eAAe;IAC5B,GAAG,EAAE,MAAM,CAAC;IACZ,eAAe,EAAE,gBAAgB,CAAC;CACrC"}
