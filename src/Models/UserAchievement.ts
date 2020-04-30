@@ -1,6 +1,6 @@
-import AchievmentTypes from '../Types/AchievementTypes';
+import AchievementTypes from '../Types/AchievementTypes';
 
 export interface UserAchievement {
     _id: string;
-    achievementType: AchievmentTypes;
+    achievementType: AchievementTypes;
 }

@@ -18,6 +18,7 @@ export interface PopulatedCurrentUser {
     timezone: string;
     following: BasicUser[];
     followers: BasicUser[];
+    totalStreakCompletes: number;
     achievements: DatabaseAchievementType[];
     profileImages: ProfileImages;
     pushNotificationToken: string;

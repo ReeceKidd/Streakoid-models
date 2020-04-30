@@ -11,6 +11,7 @@ export interface PopulatedUser {
     timezone: string;
     followers: BasicUser[];
     following: BasicUser[];
+    totalStreakCompleted: number;
     achievements: DatabaseAchievementType[];
     createdAt: string;
     updatedAt: string;

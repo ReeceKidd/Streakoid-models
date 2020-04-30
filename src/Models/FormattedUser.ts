@@ -11,4 +11,5 @@ export interface FormattedUser {
     updatedAt: string;
     profileImages: ProfileImages;
     pushNotificationToken: string;
+    totalStreakCompletes: number;
 }
