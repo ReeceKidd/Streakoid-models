@@ -6,12 +6,9 @@ export interface Registered {
 }
 
 export interface CompletedSoloStreak {
-    userId: string;
-    username: string;
     soloStreakId: string;
     soloStreakName: string;
     currentStreakNumberOfDaysInARow: number;
-    totalTimesTracked: number;
 }
 
 export interface CompletedChallengeStreak {
