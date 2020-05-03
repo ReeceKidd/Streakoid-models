@@ -1,5 +1,3 @@
-import { BasicUser } from './BasicUser';
-
 export interface Registered {
     userId: string;
     username: string;
@@ -22,8 +20,6 @@ export interface CompletedTeamMemberStreak {
     teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
-    members: BasicUser[];
-    currentStreakNumberOfDaysInARow: number;
 }
 
 export interface CreatedSoloStreak {
@@ -35,7 +31,6 @@ export interface CreatedSoloStreak {
 export interface CreatedTeamStreak {
     teamStreakId: string;
     teamStreakName: string;
-    members: BasicUser[];
 }
 
 export interface JoinedChallenge {
