@@ -25,7 +25,6 @@ export interface CompletedTeamMemberStreak {
 export interface CreatedSoloStreak {
     soloStreakId: string;
     soloStreakName: string;
-    soloStreakDescription: string;
 }
 
 export interface CreatedTeamStreak {
