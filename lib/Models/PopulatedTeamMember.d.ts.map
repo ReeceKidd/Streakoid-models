@@ -1,1 +1,0 @@
-{"version":3,"file":"PopulatedTeamMember.d.ts","sourceRoot":"","sources":["../../src/Models/PopulatedTeamMember.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,gBAAgB,EAAE,MAAM,oBAAoB,CAAC;AAEtD,MAAM,WAAW,mBAAmB;IAChC,GAAG,EAAE,MAAM,CAAC;IACZ,QAAQ,EAAE,MAAM,CAAC;IACjB,YAAY,EAAE,MAAM,CAAC;IACrB,gBAAgB,EAAE,gBAAgB,CAAC;CACtC"}

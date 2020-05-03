@@ -1,1 +1,0 @@
-{"version":3,"file":"IncompleteChallengeStreakTask.d.ts","sourceRoot":"","sources":["../../src/Models/IncompleteChallengeStreakTask.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,6BAA6B;IAC1C,GAAG,EAAE,MAAM,CAAC;IACZ,iBAAiB,EAAE,MAAM,CAAC;IAC1B,MAAM,EAAE,MAAM,CAAC;IACf,kBAAkB,EAAE,IAAI,CAAC;IACzB,iBAAiB,EAAE,MAAM,CAAC;IAC1B,SAAS,EAAE,MAAM,CAAC;IAClB,SAAS,EAAE,MAAM,CAAC;CACrB"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"DatabaseStats.d.ts","sourceRoot":"","sources":["../../src/Models/DatabaseStats.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAC1B,UAAU,EAAE,MAAM,CAAC;IACnB,oBAAoB,EAAE,MAAM,CAAC;IAC7B,yBAAyB,EAAE,MAAM,CAAC;IAClC,oBAAoB,EAAE,MAAM,CAAC;IAC7B,YAAY,EAAE,MAAM,CAAC;CACxB"}
