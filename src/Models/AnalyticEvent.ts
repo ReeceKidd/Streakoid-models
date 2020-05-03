@@ -12,7 +12,6 @@ export interface CompletedSoloStreak {
     soloStreakName: string;
     currentStreakNumberOfDaysInARow: number;
     totalTimesTracked: number;
-    createdAt: string;
 }
 
 export interface CompletedChallengeStreak {
@@ -20,7 +19,6 @@ export interface CompletedChallengeStreak {
     challengeId: string;
     challengeName: string;
     currentStreakNumberOfDaysInARow: number;
-    totalTimesTracked: number;
 }
 
 export interface CompletedTeamMemberStreak {
@@ -29,7 +27,6 @@ export interface CompletedTeamMemberStreak {
     teamStreakName: string;
     members: BasicUser[];
     currentStreakNumberOfDaysInARow: number;
-    totalTimesTracked: number;
 }
 
 export interface CreatedSoloStreak {
