@@ -1,15 +1,11 @@
-import AnalyticEventTypes from '../Types/AnalyticEventsTypes';
 import { BasicUser } from './BasicUser';
 
 export interface AnalyticsRegister {
-    analyticsEventType: AnalyticEventTypes.register;
     userId: string;
     username: string;
-    createdAt: string;
 }
 
 export interface AnalyticsCompleteSoloStreak {
-    analyticsEventType: AnalyticEventTypes.completeSoloStreak;
     userId: string;
     username: string;
     soloStreakId: string;
@@ -20,7 +16,6 @@ export interface AnalyticsCompleteSoloStreak {
 }
 
 export interface AnalyticsIncompleteSoloStreak {
-    analyticsEventType: AnalyticEventTypes.incompleteSoloStreak;
     userId: string;
     username: string;
     soloStreakId: string;
@@ -31,7 +26,6 @@ export interface AnalyticsIncompleteSoloStreak {
 }
 
 export interface AnalyticsCompleteChallengeStreak {
-    analyticsEventType: AnalyticEventTypes.completeChallengeStreak;
     userId: string;
     username: string;
     challengeStreakId: string;
@@ -43,7 +37,6 @@ export interface AnalyticsCompleteChallengeStreak {
 }
 
 export interface AnalyticsIncompleteChallengeStreak {
-    analyticsEventType: AnalyticEventTypes.incompleteChallengeStreak;
     userId: string;
     username: string;
     challengeStreakId: string;
@@ -55,7 +48,6 @@ export interface AnalyticsIncompleteChallengeStreak {
 }
 
 export interface AnalyticsCompleteTeamMemberStreak {
-    analyticsEventType: AnalyticEventTypes.completeTeamMemberStreak;
     userId: string;
     username: string;
     teamMemberStreakId: string;
@@ -68,7 +60,6 @@ export interface AnalyticsCompleteTeamMemberStreak {
 }
 
 export interface AnalyticsIncompleteTeamMemberStreak {
-    analyticsEventType: AnalyticEventTypes.incompleteTeamMemberStreak;
     userId: string;
     username: string;
     teamMemberStreakId: string;
@@ -81,7 +72,6 @@ export interface AnalyticsIncompleteTeamMemberStreak {
 }
 
 export interface CreateSoloStreak {
-    analyticsEventType: AnalyticEventTypes.createSoloStreak;
     userId: string;
     username: string;
     soloStreakId: string;
@@ -89,7 +79,6 @@ export interface CreateSoloStreak {
 }
 
 export interface CreateTeamStreak {
-    analyticsEventType: AnalyticEventTypes.createTeamStreak;
     userId: string;
     username: string;
     teamStreakId: string;
@@ -98,7 +87,6 @@ export interface CreateTeamStreak {
 }
 
 export interface JoinChallenge {
-    analyticsEventType: AnalyticEventTypes.joinChallenge;
     userId: string;
     username: string;
     challengeId: string;
@@ -107,7 +95,6 @@ export interface JoinChallenge {
 }
 
 export interface FollowUser {
-    analyticsEventType: AnalyticEventTypes.followUser;
     userId: string;
     username: string;
     userFollowedId: string;
