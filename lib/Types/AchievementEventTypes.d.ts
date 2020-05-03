@@ -1,5 +1,5 @@
-declare enum AchievmentEventTypes {
-    unlockedAcheivement = "unlockedAcheivement"
+declare enum AchievementEventTypes {
+    unlockedAchievement = 'unlockedAchievement',
 }
-export default AchievmentEventTypes;
+export default AchievementEventTypes;
 //# sourceMappingURL=AchievementEventTypes.d.ts.map

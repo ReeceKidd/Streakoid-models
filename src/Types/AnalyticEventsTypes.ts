@@ -1,4 +1,4 @@
-enum AnalyticsEvents {
+enum AnalyticEventsTypes {
     register = 'register',
     completeSoloStreak = 'completeSoloStreak',
     incompleteSoloStreak = 'incompleteSoloStreak',
@@ -12,4 +12,4 @@ enum AnalyticsEvents {
     followUser = 'followUser',
 }
 
-export default AnalyticsEvents;
+export default AnalyticEventsTypes;
