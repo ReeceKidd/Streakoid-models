@@ -1,6 +1,6 @@
 {
     "name": "@streakoid/streakoid-models",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "Streakoid Models",
     "main": "lib/index.js",
     "types": "lib",
