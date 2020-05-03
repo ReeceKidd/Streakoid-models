@@ -1,15 +1,14 @@
 enum AnalyticEventsTypes {
-    register = 'register',
-    completeSoloStreak = 'completeSoloStreak',
-    incompleteSoloStreak = 'incompleteSoloStreak',
-    completeChallengeStreak = 'completeChallengeStreak',
-    incompleteChallengeStreak = 'incompleteChallengeStreak',
-    completeTeamMemberStreak = 'completeTeamMemberStreak',
-    incompleteTeamMemberStreak = 'incompleteTeamMemberStreak',
-    createSoloStreak = 'createSoloStreak',
-    createTeamStreak = 'createTeamStreak',
-    joinChallenge = 'joinChallenge',
-    followUser = 'followUser',
+    registered = 'registered',
+    completedSoloStreak = 'completedSoloStreak',
+    completedChallengeStreak = 'completedChallengeStreak',
+    completedTeamMemberStreak = 'completedTeamMemberStreak',
+    createdSoloStreak = 'createdSoloStreak',
+    createdTeamStreak = 'createdTeamStreak',
+    joinedChallenge = 'joinedChallenge',
+    followedUser = 'followedUser',
+    subscribedToAnnualPlan = 'subscribedToAnnualPlan',
+    subscribedToMonthlyPlan = 'subscribedToMonthlyPlan',
 }
 
 export default AnalyticEventsTypes;

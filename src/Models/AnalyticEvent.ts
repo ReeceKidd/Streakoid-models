@@ -1,21 +1,11 @@
 import { BasicUser } from './BasicUser';
 
-export interface AnalyticsRegister {
+export interface Registered {
     userId: string;
     username: string;
 }
 
-export interface AnalyticsCompleteSoloStreak {
-    userId: string;
-    username: string;
-    soloStreakId: string;
-    soloStreakName: string;
-    currentStreakNumberOfDaysInARow: number;
-    totalTimesTracked: number;
-    createdAt: string;
-}
-
-export interface AnalyticsIncompleteSoloStreak {
+export interface CompletedSoloStreak {
     userId: string;
     username: string;
     soloStreakId: string;
@@ -25,7 +15,7 @@ export interface AnalyticsIncompleteSoloStreak {
     createdAt: string;
 }
 
-export interface AnalyticsCompleteChallengeStreak {
+export interface CompletedChallengeStreak {
     userId: string;
     username: string;
     challengeStreakId: string;
@@ -36,18 +26,7 @@ export interface AnalyticsCompleteChallengeStreak {
     createdAt: string;
 }
 
-export interface AnalyticsIncompleteChallengeStreak {
-    userId: string;
-    username: string;
-    challengeStreakId: string;
-    challengeId: string;
-    challengeName: string;
-    currentStreakNumberOfDaysInARow: number;
-    totalTimesTracked: number;
-    createdAt: string;
-}
-
-export interface AnalyticsCompleteTeamMemberStreak {
+export interface CompletedTeamMemberStreak {
     userId: string;
     username: string;
     teamMemberStreakId: string;
@@ -59,26 +38,14 @@ export interface AnalyticsCompleteTeamMemberStreak {
     createdAt: string;
 }
 
-export interface AnalyticsIncompleteTeamMemberStreak {
-    userId: string;
-    username: string;
-    teamMemberStreakId: string;
-    teamStreakId: string;
-    teamStreakName: string;
-    members: BasicUser[];
-    currentStreakNumberOfDaysInARow: number;
-    totalTimesTracked: number;
-    createdAt: string;
-}
-
-export interface CreateSoloStreak {
+export interface CreatedSoloStreak {
     userId: string;
     username: string;
     soloStreakId: string;
     soloStreakName: string;
 }
 
-export interface CreateTeamStreak {
+export interface CreatedTeamStreak {
     userId: string;
     username: string;
     teamStreakId: string;
@@ -86,7 +53,7 @@ export interface CreateTeamStreak {
     members: BasicUser[];
 }
 
-export interface JoinChallenge {
+export interface JoinedChallenge {
     userId: string;
     username: string;
     challengeId: string;
@@ -94,9 +61,19 @@ export interface JoinChallenge {
     numberOfMembersInChallenge: number;
 }
 
-export interface FollowUser {
+export interface FollowedUser {
     userId: string;
     username: string;
     userFollowedId: string;
     userFollowedUsername: string;
+}
+
+export interface SubscribedToAnnualPlan {
+    userId: string;
+    username: string;
+}
+
+export interface SubscribedToMonthlyPlan {
+    userId: string;
+    username: string;
 }
