@@ -7,6 +7,7 @@ export interface ChallengeStreak {
     challengeId: string;
     challengeName: string;
     userId: string;
+    username: string;
     userProfileImage: string;
     status: StreakStatus;
     completedToday: boolean;
