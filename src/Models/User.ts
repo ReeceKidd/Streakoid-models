@@ -18,6 +18,7 @@ export interface User {
     followers: string[];
     following: string[];
     totalStreakCompletes: number;
+    totalLiveStreaks: number;
     achievements: UserAchievement[];
     stripe: {
         customer: string;

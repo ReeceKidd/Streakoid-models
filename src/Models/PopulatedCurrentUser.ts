@@ -19,6 +19,7 @@ export interface PopulatedCurrentUser {
     following: BasicUser[];
     followers: BasicUser[];
     totalStreakCompletes: number;
+    totalLiveStreaks: number;
     achievements: DatabaseAchievementType[];
     profileImages: ProfileImages;
     pushNotificationToken: string;
