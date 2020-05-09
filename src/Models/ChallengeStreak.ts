@@ -5,7 +5,10 @@ import { PastStreak } from './PastStreak';
 export interface ChallengeStreak {
     _id: string;
     challengeId: string;
+    challengeName: string;
     userId: string;
+    username: string;
+    userProfileImage: string;
     status: StreakStatus;
     completedToday: boolean;
     active: boolean;
