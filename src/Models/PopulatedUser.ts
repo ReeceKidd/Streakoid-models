@@ -12,6 +12,7 @@ export interface PopulatedUser {
     followers: BasicUser[];
     following: BasicUser[];
     totalStreakCompletes: number;
+    totalLiveStreaks: number;
     achievements: DatabaseAchievementType[];
     createdAt: string;
     updatedAt: string;
