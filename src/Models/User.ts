@@ -26,6 +26,10 @@ export interface User {
     };
     profileImages: ProfileImages;
     pushNotificationToken: string;
+    pushNotification: {
+        pushNotificationToken: string;
+        deviceType: string;
+    };
     endpointArn: string;
     pushNotifications: UserPushNotifications;
     hasCompletedIntroduction: boolean;
