@@ -23,6 +23,7 @@ export interface PopulatedCurrentUser {
     achievements: DatabaseAchievementType[];
     profileImages: ProfileImages;
     pushNotificationToken: string;
+    endpointArn: string;
     pushNotifications: UserPushNotifications;
     hasCompletedIntroduction: boolean;
     createdAt: string;
