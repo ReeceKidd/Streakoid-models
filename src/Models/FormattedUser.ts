@@ -10,6 +10,6 @@ export interface FormattedUser {
     createdAt: string;
     updatedAt: string;
     profileImages: ProfileImages;
-    pushNotificationToken: string;
+    endpointArn: string;
     totalStreakCompletes: number;
 }
