@@ -3,6 +3,7 @@ import { PastSubscription } from './PastSubscription';
 import { ProfileImages } from './ProfileImages';
 import { UserAchievement } from './UserAchievement';
 import { UserPushNotifications } from './UserPushNotifications';
+import PushNotificationSupportedDeviceTypes from '../Types/PushNotificationSupportedDeviceTypes';
 
 export interface User {
     _id: string;
@@ -25,12 +26,11 @@ export interface User {
         subscription: string;
     };
     profileImages: ProfileImages;
-    pushNotificationToken: string;
     pushNotification: {
-        pushNotificationToken: string;
-        deviceType: string;
+        token: string;
+        endpointArn: string;
+        deviceType: PushNotificationSupportedDeviceTypes;
     };
-    endpointArn: string;
     pushNotifications: UserPushNotifications;
     hasCompletedIntroduction: boolean;
     createdAt: string;
