@@ -1,5 +1,6 @@
 import UserTypes from '../Types/UserTypes';
 import { ProfileImages } from './ProfileImages';
+import { PushNotification } from './PushNotification';
 
 export interface FormattedUser {
     _id: string;
@@ -10,6 +11,6 @@ export interface FormattedUser {
     createdAt: string;
     updatedAt: string;
     profileImages: ProfileImages;
-    endpointArn: string;
+    pushNotification: PushNotification;
     totalStreakCompletes: number;
 }

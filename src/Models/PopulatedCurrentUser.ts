@@ -4,7 +4,7 @@ import { BasicUser } from './BasicUser';
 import { DatabaseAchievementType } from './DatabaseAchievement';
 import { ProfileImages } from './ProfileImages';
 import { UserPushNotifications } from './UserPushNotifications';
-import PushNotificationSupportedDeviceTypes from '../Types/PushNotificationSupportedDeviceTypes';
+import { PushNotification } from './PushNotification';
 
 export interface PopulatedCurrentUser {
     _id: string;
@@ -23,11 +23,7 @@ export interface PopulatedCurrentUser {
     totalLiveStreaks: number;
     achievements: DatabaseAchievementType[];
     profileImages: ProfileImages;
-    pushNotification: {
-        token: string;
-        endpointArn: string;
-        deviceType: PushNotificationSupportedDeviceTypes;
-    };
+    pushNotification: PushNotification;
     pushNotifications: UserPushNotifications;
     hasCompletedIntroduction: boolean;
     createdAt: string;
