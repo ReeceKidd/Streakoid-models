@@ -5,6 +5,7 @@ import { DatabaseAchievementType } from './DatabaseAchievement';
 import { ProfileImages } from './ProfileImages';
 import { UserPushNotifications } from './UserPushNotifications';
 import { PushNotification } from './PushNotification';
+import { Onboarding } from './Onboarding';
 
 export interface PopulatedCurrentUser {
     _id: string;
@@ -25,7 +26,9 @@ export interface PopulatedCurrentUser {
     profileImages: ProfileImages;
     pushNotification: PushNotification;
     pushNotifications: UserPushNotifications;
-    hasCompletedIntroduction: boolean;
+    hasCompletedTutorial: boolean;
+    onboarding: Onboarding;
+    hasCompletedOnboarding: boolean;
     createdAt: string;
     updatedAt: string;
 }
