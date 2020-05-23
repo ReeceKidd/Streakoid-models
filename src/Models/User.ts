@@ -4,6 +4,7 @@ import { ProfileImages } from './ProfileImages';
 import { UserAchievement } from './UserAchievement';
 import { UserPushNotifications } from './UserPushNotifications';
 import { PushNotification } from './PushNotification';
+import { Onboarding } from './Onboarding';
 
 export interface User {
     _id: string;
@@ -28,7 +29,9 @@ export interface User {
     profileImages: ProfileImages;
     pushNotification: PushNotification;
     pushNotifications: UserPushNotifications;
-    hasCompletedIntroduction: boolean;
+    hasCompletedTutorial: boolean;
+    onboarding: Onboarding;
+    hasCompletedOnboarding: boolean;
     createdAt: string;
     updatedAt: string;
 }
