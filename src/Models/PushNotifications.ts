@@ -66,9 +66,9 @@ export interface AddedNoteToTeamStreakPushNotification {
 export interface NewFollowerPushNotification {
     pushNotificationType: PushNotificationTypes.newFollower;
     followerId: string;
-    followerUsername: string;
     title: string;
     body: string;
+    followerUsername?: string;
 }
 
 export interface UnlockedAchievementPushNotification {
