@@ -7,7 +7,6 @@ export interface ChallengeStreak {
     challengeId: string;
     challengeName: string;
     userId: string;
-    username: string;
     userProfileImage: string;
     status: StreakStatus;
     completedToday: boolean;
@@ -17,4 +16,5 @@ export interface ChallengeStreak {
     timezone: string;
     updatedAt: string;
     createdAt: string;
+    username?: string;
 }

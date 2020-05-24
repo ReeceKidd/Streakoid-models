@@ -5,7 +5,6 @@ import { ProfileImages } from './ProfileImages';
 
 export interface PopulatedUser {
     _id: string;
-    username: string;
     isPayingMember: boolean;
     userType: UserTypes;
     timezone: string;
@@ -18,4 +17,5 @@ export interface PopulatedUser {
     updatedAt: string;
     profileImages: ProfileImages;
     pushNotificationToken: string;
+    username?: string;
 }

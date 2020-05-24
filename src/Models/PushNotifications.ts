@@ -55,12 +55,12 @@ export interface IncompletedTeamStreakUpdatePushNotification {
 export interface AddedNoteToTeamStreakPushNotification {
     pushNotificationType: PushNotificationTypes.addedNoteToTeamStreak;
     userId: string;
-    username: string;
     teamStreakId: string;
     teamStreakName: string;
     note: string;
     title: string;
     body: string;
+    username?: string;
 }
 
 export interface NewFollowerPushNotification {

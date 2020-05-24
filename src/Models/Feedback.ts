@@ -2,7 +2,7 @@ export interface Feedback {
     _id: string;
     userId: string;
     pageUrl: string;
-    username: string;
     userEmail: string;
     feedbackText: string;
+    username?: string;
 }

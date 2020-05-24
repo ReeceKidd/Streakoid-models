@@ -4,7 +4,6 @@ import { PushNotification } from './PushNotification';
 
 export interface FormattedUser {
     _id: string;
-    username: string;
     isPayingMember: boolean;
     userType: UserTypes;
     timezone: string;
@@ -13,4 +12,5 @@ export interface FormattedUser {
     profileImages: ProfileImages;
     pushNotification: PushNotification;
     totalStreakCompletes: number;
+    username?: string;
 }
