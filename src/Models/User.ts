@@ -9,6 +9,7 @@ import { Onboarding } from './Onboarding';
 export interface User {
     _id: string;
     username: string;
+    userIdentifier: string;
     membershipInformation: {
         isPayingMember: boolean;
         pastMemberships: PastSubscription[];
