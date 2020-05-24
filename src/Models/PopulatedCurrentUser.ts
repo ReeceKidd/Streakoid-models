@@ -9,13 +9,11 @@ import { Onboarding } from './Onboarding';
 
 export interface PopulatedCurrentUser {
     _id: string;
-    username: string;
     membershipInformation: {
         isPayingMember: boolean;
         pastMemberships: PastSubscription[];
         currentMembershipStartDate: Date | null;
     };
-    email: string;
     userType: UserTypes;
     timezone: string;
     following: BasicUser[];
@@ -32,4 +30,7 @@ export interface PopulatedCurrentUser {
     hasCompletedOnboarding: boolean;
     createdAt: string;
     updatedAt: string;
+    email?: string;
+    username?: string;
+    name?: string;
 }

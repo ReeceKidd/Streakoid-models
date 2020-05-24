@@ -8,14 +8,12 @@ import { Onboarding } from './Onboarding';
 
 export interface User {
     _id: string;
-    username: string;
     userIdentifier: string;
     membershipInformation: {
         isPayingMember: boolean;
         pastMemberships: PastSubscription[];
         currentMembershipStartDate: Date | null;
     };
-    email: string;
     userType: UserTypes;
     timezone: string;
     followers: string[];
@@ -36,4 +34,7 @@ export interface User {
     hasCompletedOnboarding: boolean;
     createdAt: string;
     updatedAt: string;
+    username?: string;
+    email?: string;
+    name?: string;
 }
