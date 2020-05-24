@@ -29,6 +29,7 @@ export interface User {
     profileImages: ProfileImages;
     pushNotification: PushNotification;
     pushNotifications: UserPushNotifications;
+    hasCompletedIntroduction: boolean;
     hasCompletedTutorial: boolean;
     onboarding: Onboarding;
     hasCompletedOnboarding: boolean;
