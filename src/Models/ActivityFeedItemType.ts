@@ -312,10 +312,10 @@ export interface FollowedUserActivityFeedItem {
     userId: string;
     userProfileImage: string;
     userFollowedId: string;
-    userFollowedUsername: string;
     createdAt?: string;
     _id?: string;
     username?: string;
+    userFollowedUsername?: string;
 }
 
 export type ActivityFeedItemType =
