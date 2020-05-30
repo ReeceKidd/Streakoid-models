@@ -7,8 +7,8 @@ export interface CreatedSoloStreakActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface ArchivedSoloStreakActivityFeedItem {
@@ -18,8 +18,8 @@ export interface ArchivedSoloStreakActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface RestoredSoloStreakActivityFeedItem {
@@ -29,8 +29,8 @@ export interface RestoredSoloStreakActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface DeletedSoloStreakActivityFeedItem {
@@ -40,8 +40,8 @@ export interface DeletedSoloStreakActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface EditedSoloStreakNameActivityFeedItem {
@@ -51,8 +51,8 @@ export interface EditedSoloStreakNameActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface EditedSoloStreakDescriptionActivityFeedItem {
@@ -74,8 +74,8 @@ export interface CompletedSoloStreakActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface IncompletedSoloStreakActivityFeedItem {
@@ -85,8 +85,8 @@ export interface IncompletedSoloStreakActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface LostSoloStreakActivityFeedItem {
@@ -193,8 +193,8 @@ export interface CreatedTeamStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface ArchivedTeamStreakActivityFeedItem {
@@ -204,8 +204,8 @@ export interface ArchivedTeamStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface RestoredTeamStreakActivityFeedItem {
@@ -215,8 +215,8 @@ export interface RestoredTeamStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface DeletedTeamStreakActivityFeedItem {
@@ -226,8 +226,8 @@ export interface DeletedTeamStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface CompletedTeamMemberStreakActivityFeedItem {
@@ -237,8 +237,8 @@ export interface CompletedTeamMemberStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface IncompletedTeamMemberStreakActivityFeedItem {
@@ -248,8 +248,8 @@ export interface IncompletedTeamMemberStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface JoinedTeamStreakActivityFeedItem {
@@ -259,8 +259,8 @@ export interface JoinedTeamStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface EditedTeamStreakNameActivityFeedItem {
@@ -270,8 +270,8 @@ export interface EditedTeamStreakNameActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface EditedTeamStreakDescriptionActivityFeedItem {
@@ -281,8 +281,8 @@ export interface EditedTeamStreakDescriptionActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     teamStreakDescription: string;
-    createdAt?: string;
     username: string;
+    createdAt?: string;
     _id?: string;
 }
 
@@ -293,8 +293,8 @@ export interface LostTeamStreakActivityFeedItem {
     teamStreakId: string;
     teamStreakName: string;
     numberOfDaysLost: number;
-    createdAt?: string;
     username: string;
+    createdAt?: string;
     _id?: string;
 }
 
@@ -303,8 +303,8 @@ export interface CreatedAccountActivityFeedItem {
     userId: string;
     userProfileImage: string;
     createdAt?: string;
-    _id?: string;
     username: string;
+    _id?: string;
 }
 
 export interface FollowedUserActivityFeedItem {
@@ -313,9 +313,9 @@ export interface FollowedUserActivityFeedItem {
     userProfileImage: string;
     userFollowedId: string;
     createdAt?: string;
-    _id?: string;
     username: string;
-    userFollowedusername: string;
+    userFollowedUsername: string;
+    _id?: string;
 }
 
 export type ActivityFeedItemType =

@@ -6,6 +6,6 @@ export interface Email {
     message: string;
     createdAt: string;
     updatedAt: string;
-    userId?: string;
     username: string;
+    userId?: string;
 }

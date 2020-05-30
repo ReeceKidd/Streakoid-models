@@ -68,7 +68,7 @@ export interface NewFollowerPushNotification {
     followerId: string;
     title: string;
     body: string;
-    followerusername: string;
+    followerUsername: string;
 }
 
 export interface UnlockedAchievementPushNotification {
