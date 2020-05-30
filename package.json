@@ -11,7 +11,7 @@
         "preversion": "npm run lint",
         "version": "git add -A src",
         "postversion": "git push --no-verify && git push --no-verify --tags",
-        "update": "npm version patch && npm publish"
+        "update": "git push && npm version patch && npm publish"
     },
     "author": "reecekidd",
     "license": "ISC",
