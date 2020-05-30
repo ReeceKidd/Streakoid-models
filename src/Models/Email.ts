@@ -7,5 +7,5 @@ export interface Email {
     createdAt: string;
     updatedAt: string;
     userId?: string;
-    username?: string;
+    username: string;
 }

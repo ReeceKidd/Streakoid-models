@@ -4,5 +4,5 @@ export interface Feedback {
     pageUrl: string;
     userEmail: string;
     feedbackText: string;
-    username?: string;
+    username: string;
 }

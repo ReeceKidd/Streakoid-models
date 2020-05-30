@@ -16,7 +16,7 @@ export interface PopulatedTeamStreak {
     timezone: string;
     creator: {
         _id: string;
-        username?: string;
+        username: string;
     };
     createdAt: string;
     updatedAt: string;

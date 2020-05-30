@@ -31,6 +31,6 @@ export interface PopulatedCurrentUser {
     createdAt: string;
     updatedAt: string;
     email?: string;
-    username?: string;
+    username: string;
     name?: string;
 }

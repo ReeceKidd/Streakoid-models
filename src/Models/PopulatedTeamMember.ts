@@ -4,5 +4,5 @@ export interface PopulatedTeamMember {
     _id: string;
     profileImage: string;
     teamMemberStreak: TeamMemberStreak;
-    username?: string;
+    username: string;
 }

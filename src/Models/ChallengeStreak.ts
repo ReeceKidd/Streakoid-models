@@ -16,5 +16,5 @@ export interface ChallengeStreak {
     timezone: string;
     updatedAt: string;
     createdAt: string;
-    username?: string;
+    username: string;
 }

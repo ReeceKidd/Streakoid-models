@@ -34,7 +34,7 @@ export interface User {
     hasCompletedOnboarding: boolean;
     createdAt: string;
     updatedAt: string;
-    username?: string;
+    username: string;
     email?: string;
     name?: string;
 }

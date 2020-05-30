@@ -60,7 +60,7 @@ export interface AddedNoteToTeamStreakPushNotification {
     note: string;
     title: string;
     body: string;
-    username?: string;
+    username: string;
 }
 
 export interface NewFollowerPushNotification {
@@ -68,7 +68,7 @@ export interface NewFollowerPushNotification {
     followerId: string;
     title: string;
     body: string;
-    followerUsername?: string;
+    followerusername: string;
 }
 
 export interface UnlockedAchievementPushNotification {

@@ -12,5 +12,5 @@ export interface FormattedUser {
     profileImages: ProfileImages;
     pushNotification: PushNotification;
     totalStreakCompletes: number;
-    username?: string;
+    username: string;
 }
