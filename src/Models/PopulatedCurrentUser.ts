@@ -30,6 +30,7 @@ export interface PopulatedCurrentUser {
     hasCompletedOnboarding: boolean;
     createdAt: string;
     updatedAt: string;
+    temporaryPassword: string;
     email?: string;
     username: string;
     name?: string;
