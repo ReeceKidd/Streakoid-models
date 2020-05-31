@@ -1,7 +1,7 @@
 enum UserTypes {
     basic = 'basic',
     admin = 'admin',
-    generic = 'generic',
+    temporary = 'temporary',
 }
 
 export default UserTypes;
