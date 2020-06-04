@@ -37,7 +37,7 @@ export interface User {
     username: string;
     cognitoUsername: string;
     temporaryPassword: string;
-    hasUsernameBeenCustomized: string;
+    hasUsernameBeenCustomized: boolean;
     email?: string;
     firstName?: string;
     lastName?: string;
