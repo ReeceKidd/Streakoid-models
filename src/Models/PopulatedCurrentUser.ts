@@ -31,7 +31,9 @@ export interface PopulatedCurrentUser {
     createdAt: string;
     updatedAt: string;
     temporaryPassword: string;
-    email?: string;
     username: string;
-    name?: string;
+    hasUsernameBeenCustomized: string;
+    email?: string;
+    firstName?: string;
+    lastName?: string;
 }
