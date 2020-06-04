@@ -26,6 +26,7 @@ export interface User {
         subscription: string;
     };
     profileImages: ProfileImages;
+    hasProfileImageBeenCustomized: boolean;
     pushNotification: PushNotification;
     pushNotifications: UserPushNotifications;
     hasCompletedIntroduction: boolean;

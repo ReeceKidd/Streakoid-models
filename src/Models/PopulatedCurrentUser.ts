@@ -22,6 +22,7 @@ export interface PopulatedCurrentUser {
     totalLiveStreaks: number;
     achievements: DatabaseAchievementType[];
     profileImages: ProfileImages;
+    hasProfileImageBeenCustomized: boolean;
     pushNotification: PushNotification;
     pushNotifications: UserPushNotifications;
     hasCompletedIntroduction: boolean;
