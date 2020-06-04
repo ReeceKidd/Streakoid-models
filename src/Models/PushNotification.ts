@@ -2,6 +2,6 @@ import PushNotificationSupportedDeviceTypes from '../Types/PushNotificationSuppo
 
 export interface PushNotification {
     token: string;
-    endpointArn: string;
     deviceType: PushNotificationSupportedDeviceTypes;
+    endpointArn?: string;
 }
