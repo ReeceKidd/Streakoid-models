@@ -33,8 +33,9 @@ export interface PopulatedCurrentUser {
     updatedAt: string;
     temporaryPassword: string;
     username: string;
-    cognitoUsername: string;
     hasUsernameBeenCustomized: boolean;
+    hasVerifiedEmail: boolean;
+    hasCustomPassword: boolean;
     email?: string;
     firstName?: string;
     lastName?: string;
