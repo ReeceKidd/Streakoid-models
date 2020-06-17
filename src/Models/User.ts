@@ -36,6 +36,7 @@ export interface User {
     createdAt: string;
     updatedAt: string;
     username: string;
+    cognitoUsername: string;
     temporaryPassword: string;
     hasUsernameBeenCustomized: boolean;
     hasVerifiedEmail: boolean;
