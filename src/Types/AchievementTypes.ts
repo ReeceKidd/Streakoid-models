@@ -1,6 +1,6 @@
-enum AchievmentTypes {
+enum AchievementTypes {
     oneHundredDaySoloStreak = 'oneHundredDaySoloStreak',
     oneHundredDayChallengeStreak = 'oneHundredDayChallengeStreak',
 }
 
-export default AchievmentTypes;
+export default AchievementTypes;
