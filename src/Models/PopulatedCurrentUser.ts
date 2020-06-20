@@ -36,6 +36,9 @@ export interface PopulatedCurrentUser {
     hasUsernameBeenCustomized: boolean;
     hasVerifiedEmail: boolean;
     hasCustomPassword: boolean;
+    soloStreaksOrder: string[];
+    challengeStreaksOrder: string[];
+    teamStreaksOrder: string[];
     email?: string;
     firstName?: string;
     lastName?: string;
