@@ -14,6 +14,7 @@ export interface SoloStreak {
     timezone: string;
     updatedAt: string;
     createdAt: string;
+    userDefinedIndex?: number;
     streakDescription?: string;
     numberOfMinutes?: number;
 }
