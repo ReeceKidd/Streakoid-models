@@ -17,4 +17,5 @@ export interface ChallengeStreak {
     updatedAt: string;
     createdAt: string;
     username: string;
+    userDefinedIndex?: number;
 }
