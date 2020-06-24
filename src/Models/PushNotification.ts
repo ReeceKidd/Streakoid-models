@@ -1,5 +1,6 @@
 export interface PushNotification {
-    token: string;
+    androidToken?: string;
+    iosToken?: string;
     androidEndpointArn?: string;
     iosEndpointArn?: string;
 }
