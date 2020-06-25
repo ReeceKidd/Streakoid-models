@@ -16,6 +16,5 @@ export interface PopulatedUser {
     createdAt: string;
     updatedAt: string;
     profileImages: ProfileImages;
-    pushNotificationToken: string;
     username: string;
 }
