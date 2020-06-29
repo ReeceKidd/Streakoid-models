@@ -20,6 +20,7 @@ export interface PopulatedTeamStreak {
     };
     createdAt: string;
     updatedAt: string;
+    inviteKey?: string;
     streakDescription?: string;
     numberOfMinutes?: number;
 }

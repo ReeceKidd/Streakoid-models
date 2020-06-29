@@ -16,6 +16,7 @@ export interface TeamStreak {
     timezone: string;
     createdAt: string;
     updatedAt: string;
+    inviteKey: string;
     streakDescription?: string;
     numberOfMinutes?: number;
 }
