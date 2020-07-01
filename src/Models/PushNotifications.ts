@@ -84,8 +84,6 @@ export interface JoinedTeamStreakPushNotification {
     userId: string;
     teamStreakId: string;
     teamStreakName: string;
-    note: string;
     title: string;
-    body: string;
     username: string;
 }
