@@ -42,6 +42,8 @@ export interface User {
     hasVerifiedEmail: boolean;
     hasCustomPassword: boolean;
     teamStreaksOrder: string[];
+    coins: number;
+    oidXp: number;
     email?: string;
     firstName?: string;
     lastName?: string;
