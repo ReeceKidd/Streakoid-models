@@ -8,6 +8,7 @@ enum PushNotificationTypes {
     addedNoteToTeamStreak = 'addedNoteToTeamStreak',
     newFollower = 'newFollower',
     unlockedAchievement = 'unlockedAchievement',
+    joinedTeamStreak = 'joinedTeamStreak',
 }
 
 export default PushNotificationTypes;

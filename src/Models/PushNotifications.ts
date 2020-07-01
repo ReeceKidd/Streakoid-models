@@ -7,7 +7,8 @@ export type PushNotificationType =
     | IncompletedTeamStreakUpdatePushNotification
     | AddedNoteToTeamStreakPushNotification
     | NewFollowerPushNotification
-    | UnlockedAchievementPushNotification;
+    | UnlockedAchievementPushNotification
+    | JoinedTeamStreakPushNotification;
 
 export type CustomStreakReminderPushNotification =
     | CustomSoloStreakReminderPushNotification
@@ -76,4 +77,15 @@ export interface UnlockedAchievementPushNotification {
     achievementId: string;
     title: string;
     body: string;
+}
+
+export interface JoinedTeamStreakPushNotification {
+    pushNotificationType: PushNotificationTypes.joinedTeamStreak;
+    userId: string;
+    teamStreakId: string;
+    teamStreakName: string;
+    note: string;
+    title: string;
+    body: string;
+    username: string;
 }
