@@ -15,6 +15,7 @@ export interface TeamMemberStreak {
         numberOfDaysInARow: number;
     }>;
     timezone: string;
+    totalTimesTracked: number;
     createdAt: string;
     updatedAt: string;
 }

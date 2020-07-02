@@ -14,6 +14,7 @@ export interface ChallengeStreak {
     currentStreak: CurrentStreak;
     pastStreaks: Array<PastStreak>;
     timezone: string;
+    totalTimesTracked: number;
     updatedAt: string;
     createdAt: string;
     username: string;

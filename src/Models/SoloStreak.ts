@@ -12,6 +12,7 @@ export interface SoloStreak {
     currentStreak: CurrentStreak;
     pastStreaks: Array<PastStreak>;
     timezone: string;
+    totalTimesTracked: number;
     updatedAt: string;
     createdAt: string;
     userDefinedIndex?: number;
