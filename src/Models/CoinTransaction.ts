@@ -6,7 +6,7 @@ export interface CoinTransaction {
     transactionType: CoinTransactionTypes;
     source: CoinSources;
     userId: string;
-    xp: number;
+    coins: number;
     createdAt: string;
     updatedAt: string;
 }
