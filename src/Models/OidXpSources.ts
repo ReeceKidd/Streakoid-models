@@ -1,28 +1,32 @@
 import { OidXpSourcesTypes } from '../Types/OidXpSourcesTypes';
 
-export type OidXpSources = SoloStreakComplete | ChallengeStreakComplete | TeamMemberStreakComplete | TeamStreakComplete;
+export type OidXpSources =
+    | SoloStreakCompleteOidXpSource
+    | ChallengeStreakCompleteOidXpSource
+    | TeamMemberStreakCompleteOidXpSource
+    | TeamStreakCompleteOidXpSource;
 
-export interface SoloStreakComplete {
-    OidXpSourceType: OidXpSourcesTypes.soloStreakComplete;
+export interface SoloStreakCompleteOidXpSource {
+    oidXpSourceType: OidXpSourcesTypes.soloStreakComplete;
     soloStreakId: string;
 }
 
-export interface ChallengeStreakComplete {
-    OidXpSourceType: OidXpSourcesTypes.challengeStreakComplete;
+export interface ChallengeStreakCompleteOidXpSource {
+    oidXpSourceType: OidXpSourcesTypes.challengeStreakComplete;
     challengeStreakId: string;
     challengeId: string;
     challengeName: string;
 }
 
-export interface TeamMemberStreakComplete {
-    OidXpSourceType: OidXpSourcesTypes.teamMemberStreakComplete;
+export interface TeamMemberStreakCompleteOidXpSource {
+    oidXpSourceType: OidXpSourcesTypes.teamMemberStreakComplete;
     teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
 }
 
-export interface TeamStreakComplete {
-    OidXpSources: OidXpSourcesTypes.teamStreakComplete;
+export interface TeamStreakCompleteOidXpSource {
+    oidXpSources: OidXpSourcesTypes.teamStreakComplete;
     teamStreakId: string;
     teamStreakName: string;
 }

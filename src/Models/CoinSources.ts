@@ -1,27 +1,31 @@
 import { CoinSourcesTypes } from '../Types/CoinSourcesTypes';
 
-export type CoinSources = SoloStreakComplete | ChallengeStreakComplete | TeamMemberStreakComplete | TeamStreakComplete;
+export type CoinSources =
+    | SoloStreakCompleteCoinSource
+    | ChallengeStreakCompleteCoinSource
+    | TeamMemberStreakCompleteCoinSource
+    | TeamStreakCompleteCoinSource;
 
-export interface SoloStreakComplete {
+export interface SoloStreakCompleteCoinSource {
     coinSourceType: CoinSourcesTypes.soloStreakComplete;
     soloStreakId: string;
 }
 
-export interface ChallengeStreakComplete {
+export interface ChallengeStreakCompleteCoinSource {
     coinSourceType: CoinSourcesTypes.challengeStreakComplete;
     challengeStreakId: string;
     challengeId: string;
     challengeName: string;
 }
 
-export interface TeamMemberStreakComplete {
+export interface TeamMemberStreakCompleteCoinSource {
     coinSourceType: CoinSourcesTypes.teamMemberStreakComplete;
     teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
 }
 
-export interface TeamStreakComplete {
+export interface TeamStreakCompleteCoinSource {
     CoinSources: CoinSourcesTypes.teamStreakComplete;
     teamStreakId: string;
     teamStreakName: string;
