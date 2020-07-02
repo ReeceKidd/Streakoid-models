@@ -1,5 +1,5 @@
-import OidXpSources from '../Types/OidXpSources';
 import OidXpTransactionTypes from '../Types/OidXpTransactionTypes';
+import { OidXpSources } from './OidXpSources';
 
 export interface OidXpTransaction {
     _id: string;

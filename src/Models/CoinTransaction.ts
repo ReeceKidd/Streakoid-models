@@ -1,5 +1,5 @@
-import CoinSources from '../Types/CoinSources';
 import CoinTransactionTypes from '../Types/CoinTransactionTypes';
+import { CoinSources } from './CoinSources';
 
 export interface CoinTransaction {
     _id: string;
