@@ -6,7 +6,7 @@ export interface OidXpTransaction {
     transactionType: OidXpTransactionTypes;
     source: OidXpSources;
     userId: string;
-    xp: number;
+    oidXp: number;
     createdAt: string;
     updatedAt: string;
 }
