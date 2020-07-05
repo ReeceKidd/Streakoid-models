@@ -107,7 +107,7 @@ export interface RecoveredSoloStreakActivityFeedItem {
     userProfileImage: string;
     soloStreakId: string;
     soloStreakName: string;
-    numberOfDaysLost: number;
+    streakNumberOfDays: number;
     createdAt?: string;
     username: string;
     _id?: string;
@@ -205,7 +205,7 @@ export interface RecoveredChallengeStreakActivityFeedItem {
     challengeStreakId: string;
     challengeId: string;
     challengeName: string;
-    numberOfDaysLost: number;
+    streakNumberOfDays: number;
     username: string;
     createdAt?: string;
     _id?: string;
