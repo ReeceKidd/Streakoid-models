@@ -101,6 +101,18 @@ export interface LostSoloStreakActivityFeedItem {
     _id?: string;
 }
 
+export interface RecoveredSoloStreakActivityFeedItem {
+    activityFeedItemType: typeof ActivityFeedItemTypes.recoveredSoloStreak;
+    userId: string;
+    userProfileImage: string;
+    soloStreakId: string;
+    soloStreakName: string;
+    numberOfDaysLost: number;
+    createdAt?: string;
+    username: string;
+    _id?: string;
+}
+
 export interface CompletedChallengeStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.completedChallengeStreak;
     userId: string;
@@ -175,6 +187,19 @@ export interface DeletedChallengeStreakActivityFeedItem {
 
 export interface LostChallengeStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.lostChallengeStreak;
+    userId: string;
+    userProfileImage: string;
+    challengeStreakId: string;
+    challengeId: string;
+    challengeName: string;
+    numberOfDaysLost: number;
+    username: string;
+    createdAt?: string;
+    _id?: string;
+}
+
+export interface RecoveredChallengeStreakActivityFeedItem {
+    activityFeedItemType: typeof ActivityFeedItemTypes.recoveredChallengeStreak;
     userId: string;
     userProfileImage: string;
     challengeStreakId: string;
@@ -328,6 +353,7 @@ export type ActivityFeedItemType =
     | CompletedSoloStreakActivityFeedItem
     | IncompletedSoloStreakActivityFeedItem
     | LostSoloStreakActivityFeedItem
+    | RecoveredSoloStreakActivityFeedItem
     | CompletedChallengeStreakActivityFeedItem
     | IncompletedChallengeStreakActivityFeedItem
     | JoinedChallengeActivityFeedItem
@@ -335,6 +361,7 @@ export type ActivityFeedItemType =
     | RestoredChallengeStreakActivityFeedItem
     | DeletedChallengeStreakActivityFeedItem
     | LostChallengeStreakActivityFeedItem
+    | RecoveredChallengeStreakActivityFeedItem
     | CreatedTeamStreakActivityFeedItem
     | ArchivedTeamStreakActivityFeedItem
     | RestoredTeamStreakActivityFeedItem
