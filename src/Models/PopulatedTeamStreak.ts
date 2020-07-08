@@ -13,6 +13,7 @@ export interface PopulatedTeamStreak {
     currentStreak: CurrentStreak;
     pastStreaks: Array<PastStreak>;
     members: PopulatedTeamMember[];
+    totalTimesTracked: number;
     timezone: string;
     creator: {
         _id: string;

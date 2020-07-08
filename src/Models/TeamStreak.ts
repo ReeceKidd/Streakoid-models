@@ -13,6 +13,7 @@ export interface TeamStreak {
     currentStreak: CurrentStreak;
     pastStreaks: PastStreak[];
     members: TeamMember[];
+    totalTimesTracked: number;
     timezone: string;
     createdAt: string;
     updatedAt: string;
