@@ -8,6 +8,8 @@ export interface PopulatedUser {
     isPayingMember: boolean;
     userType: UserTypes;
     timezone: string;
+    coins: number;
+    oidXp: number;
     followers: BasicUser[];
     following: BasicUser[];
     totalStreakCompletes: number;
