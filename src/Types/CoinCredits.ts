@@ -1,4 +1,4 @@
-export enum CoinSourcesTypes {
+export enum CoinCredits {
     soloStreakComplete = 'soloStreakComplete',
     challengeStreakComplete = 'challengeStreakComplete',
     teamMemberStreakComplete = 'teamMemberStreakComplete',
