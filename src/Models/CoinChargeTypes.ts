@@ -21,14 +21,14 @@ export interface IncompleteChallengeStreakCharge {
 }
 
 export interface IncompleteTeamMemberStreakCharge {
-    coinCreditType: CoinCharges.incompleteTeamMemberStreak;
+    coinChargeType: CoinCharges.incompleteTeamMemberStreak;
     teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
 }
 
 export interface IncompleteTeamStreakCharge {
-    coinCreditType: CoinCharges.incompleteTeamStreak;
+    coinChargeType: CoinCharges.incompleteTeamStreak;
     teamStreakId: string;
     teamStreakName: string;
 }
