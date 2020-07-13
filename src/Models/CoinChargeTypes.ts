@@ -1,32 +1,34 @@
 import { CoinCharges } from '../Types/CoinCharges';
 
 export type CoinChargeTypes =
-    | SoloStreakCompleteCharge
-    | ChallengeStreakCompleteCharge
-    | TeamMemberStreakCompleteCharge
-    | TeamStreakCompleteCharge;
+    | IncompleteSoloStreakCharge
+    | IncompleteChallengeStreakCharge
+    | IncompleteTeamMemberStreakCharge
+    | IncompleteTeamStreakCharge
+    | RecoverSoloStreakCharge
+    | RecoverChallengeStreakCharge;
 
-export interface SoloStreakCompleteCharge {
-    coinChargeType: CoinCharges.soloStreakIncomplete;
+export interface IncompleteSoloStreakCharge {
+    coinChargeType: CoinCharges.incompleteSoloStreak;
     soloStreakId: string;
 }
 
-export interface ChallengeStreakCompleteCharge {
-    coinChargeType: CoinCharges.challengeStreakIncomplete;
+export interface IncompleteChallengeStreakCharge {
+    coinChargeType: CoinCharges.incompleteChallengeStreak;
     challengeStreakId: string;
     challengeId: string;
     challengeName: string;
 }
 
-export interface TeamMemberStreakCompleteCharge {
-    coinChargeType: CoinCharges.teamMemberStreakIncomplete;
+export interface IncompleteTeamMemberStreakCharge {
+    coinCreditType: CoinCharges.incompleteTeamMemberStreak;
     teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
 }
 
-export interface TeamStreakCompleteCharge {
-    coinChargeType: CoinCharges.teamStreakIncomplete;
+export interface IncompleteTeamStreakCharge {
+    coinCreditType: CoinCharges.incompleteTeamStreak;
     teamStreakId: string;
     teamStreakName: string;
 }

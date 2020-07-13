@@ -1,6 +1,6 @@
 export enum CoinCredits {
-    soloStreakComplete = 'soloStreakComplete',
-    challengeStreakComplete = 'challengeStreakComplete',
-    teamMemberStreakComplete = 'teamMemberStreakComplete',
-    teamStreakComplete = 'teamStreakComplete',
+    completeSoloStreak = 'completeSoloStreak',
+    completeChallengeStreak = 'completeChallengeStreak',
+    completeTeamMemberStreak = 'completeTeamMemberStreak',
+    completeTeamStreak = 'completeTeamStreak',
 }
