@@ -5,6 +5,10 @@ import { UserAchievement } from './UserAchievement';
 import { UserPushNotifications } from './UserPushNotifications';
 import { PushNotification } from './PushNotification';
 import { Onboarding } from './Onboarding';
+import { LongestSoloStreak } from './LongestSoloStreak';
+import { LongestChallengeStreak } from './LongestChallengeStreak';
+import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
+import { LongestTeamStreak } from './LongestTeamStreak';
 
 export interface User {
     _id: string;
@@ -44,6 +48,10 @@ export interface User {
     teamStreaksOrder: string[];
     coins: number;
     oidXp: number;
+    longestSoloStreak: LongestSoloStreak;
+    longestChallengeStreak: LongestChallengeStreak;
+    longestTeamMemberStreak: LongestTeamMemberStreak;
+    longestTeamStreak: LongestTeamStreak;
     email?: string;
     firstName?: string;
     lastName?: string;

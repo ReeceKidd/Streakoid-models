@@ -6,6 +6,10 @@ import { ProfileImages } from './ProfileImages';
 import { UserPushNotifications } from './UserPushNotifications';
 import { PushNotification } from './PushNotification';
 import { Onboarding } from './Onboarding';
+import { LongestSoloStreak } from './LongestSoloStreak';
+import { LongestChallengeStreak } from './LongestChallengeStreak';
+import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
+import { LongestTeamStreak } from './LongestTeamStreak';
 
 export interface PopulatedCurrentUser {
     _id: string;
@@ -39,6 +43,10 @@ export interface PopulatedCurrentUser {
     teamStreaksOrder: string[];
     coins: number;
     oidXp: number;
+    longestSoloStreak: LongestSoloStreak;
+    longestChallengeStreak: LongestChallengeStreak;
+    longestTeamMemberStreak: LongestTeamMemberStreak;
+    longestTeamStreak: LongestTeamStreak;
     email?: string;
     firstName?: string;
     lastName?: string;

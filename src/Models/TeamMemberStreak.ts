@@ -1,3 +1,5 @@
+import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
+
 export interface TeamMemberStreak {
     _id: string;
     userId: string;
@@ -16,6 +18,7 @@ export interface TeamMemberStreak {
     }>;
     timezone: string;
     totalTimesTracked: number;
+    longestTeamMemberStreak: LongestTeamMemberStreak;
     createdAt: string;
     updatedAt: string;
 }

@@ -2,6 +2,7 @@ import StreakStatus from '../Types/StreakStatus';
 import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
 import { TeamMember } from './TeamMember';
+import { LongestTeamStreak } from './LongestTeamStreak';
 
 export interface TeamStreak {
     _id: string;
@@ -14,6 +15,7 @@ export interface TeamStreak {
     pastStreaks: PastStreak[];
     members: TeamMember[];
     totalTimesTracked: number;
+    longestTeamStreak: LongestTeamStreak;
     timezone: string;
     createdAt: string;
     updatedAt: string;
