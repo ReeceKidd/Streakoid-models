@@ -259,6 +259,7 @@ export interface CompletedTeamMemberStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.completedTeamMemberStreak;
     userId: string;
     userProfileImage: string;
+    teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
@@ -270,6 +271,7 @@ export interface IncompletedTeamMemberStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.incompletedTeamMemberStreak;
     userId: string;
     userProfileImage: string;
+    teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
     createdAt?: string;
@@ -281,6 +283,7 @@ export interface RecoveredTeamMemberStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.recoveredTeamMemberStreak;
     userId: string;
     userProfileImage: string;
+    teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
     streakNumberOfDays: number;
