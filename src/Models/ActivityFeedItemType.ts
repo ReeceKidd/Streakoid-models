@@ -283,6 +283,7 @@ export interface RecoveredTeamMemberStreakActivityFeedItem {
     userProfileImage: string;
     teamStreakId: string;
     teamStreakName: string;
+    streakNumberOfDays: number;
     createdAt?: string;
     username: string;
     _id?: string;
