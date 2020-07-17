@@ -5,4 +5,5 @@ export enum CoinCharges {
     incompleteTeamStreak = 'incompleteTeamStreak',
     recoverChallengeStreak = 'recoverChallengeStreak',
     recoverSoloStreak = 'recoverSoloStreak',
+    recoverTeamMemberStreak = 'recoverTeamMemberStreak',
 }

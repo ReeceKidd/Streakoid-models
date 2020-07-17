@@ -6,7 +6,8 @@ export type CoinChargeTypes =
     | IncompleteTeamMemberStreakCharge
     | IncompleteTeamStreakCharge
     | RecoverSoloStreakCharge
-    | RecoverChallengeStreakCharge;
+    | RecoverChallengeStreakCharge
+    | RecoverTeamMemberStreakCharge;
 
 export interface IncompleteSoloStreakCharge {
     coinChargeType: CoinCharges.incompleteSoloStreak;
@@ -43,4 +44,11 @@ export interface RecoverChallengeStreakCharge {
     challengeStreakId: string;
     challengeId: string;
     challengeName: string;
+}
+
+export interface RecoverTeamMemberStreakCharge {
+    coinChargeType: CoinCharges.recoverTeamMemberStreak;
+    teamMemberStreakId: string;
+    teamStreakId: string;
+    teamStreakName: string;
 }
