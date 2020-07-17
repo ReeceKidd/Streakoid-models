@@ -338,6 +338,18 @@ export interface LostTeamStreakActivityFeedItem {
     _id?: string;
 }
 
+export interface RecoveredTeamStreakActivityFeedItem {
+    activityFeedItemType: typeof ActivityFeedItemTypes.recoveredTeamStreak;
+    userId: string;
+    userProfileImage: string;
+    teamStreakId: string;
+    teamStreakName: string;
+    streakNumberOfDays: number;
+    username: string;
+    createdAt?: string;
+    _id?: string;
+}
+
 export interface CreatedAccountActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.createdAccount;
     userId: string;
@@ -388,5 +400,6 @@ export type ActivityFeedItemType =
     | EditedTeamStreakNameActivityFeedItem
     | EditedTeamStreakDescriptionActivityFeedItem
     | LostTeamStreakActivityFeedItem
+    | RecoveredTeamStreakActivityFeedItem
     | CreatedAccountActivityFeedItem
     | FollowedUserActivityFeedItem;

@@ -31,6 +31,7 @@ export enum ActivityFeedItemTypes {
     recoveredTeamMemberStreak = 'recoveredTeamMemberStreak',
     joinedTeamStreak = 'joinedTeamStreak',
     lostTeamStreak = 'lostTeamStreak',
+    recoveredTeamStreak = 'recoveredTeamStreak',
     // User
     createdAccount = 'createdAccount',
     followedUser = 'followedUser',
