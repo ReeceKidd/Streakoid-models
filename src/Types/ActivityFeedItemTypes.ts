@@ -28,6 +28,7 @@ export enum ActivityFeedItemTypes {
     editedTeamStreakDescription = 'editedTeamStreakDescription',
     completedTeamMemberStreak = 'completedTeamMemberStreak',
     incompletedTeamMemberStreak = 'incompletedTeamMemberStreak',
+    recoveredTeamMemberStreak = 'recoveredTeamMemberStreak',
     joinedTeamStreak = 'joinedTeamStreak',
     lostTeamStreak = 'lostTeamStreak',
     // User

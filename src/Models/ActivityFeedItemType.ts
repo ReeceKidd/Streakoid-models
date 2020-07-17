@@ -277,6 +277,17 @@ export interface IncompletedTeamMemberStreakActivityFeedItem {
     _id?: string;
 }
 
+export interface RecoveredTeamMemberStreakActivityFeedItem {
+    activityFeedItemType: typeof ActivityFeedItemTypes.recoveredTeamMemberStreak;
+    userId: string;
+    userProfileImage: string;
+    teamStreakId: string;
+    teamStreakName: string;
+    createdAt?: string;
+    username: string;
+    _id?: string;
+}
+
 export interface JoinedTeamStreakActivityFeedItem {
     activityFeedItemType: typeof ActivityFeedItemTypes.joinedTeamStreak;
     userId: string;
@@ -368,6 +379,7 @@ export type ActivityFeedItemType =
     | DeletedTeamStreakActivityFeedItem
     | CompletedTeamMemberStreakActivityFeedItem
     | IncompletedTeamMemberStreakActivityFeedItem
+    | RecoveredTeamMemberStreakActivityFeedItem
     | JoinedTeamStreakActivityFeedItem
     | EditedTeamStreakNameActivityFeedItem
     | EditedTeamStreakDescriptionActivityFeedItem
