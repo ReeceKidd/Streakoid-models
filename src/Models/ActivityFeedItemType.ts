@@ -108,8 +108,8 @@ export interface RecoveredSoloStreakActivityFeedItem {
     soloStreakId: string;
     soloStreakName: string;
     streakNumberOfDays: number;
-    createdAt?: string;
     username: string;
+    createdAt?: string;
     _id?: string;
 }
 
