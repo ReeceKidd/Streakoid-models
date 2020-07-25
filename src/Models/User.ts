@@ -9,6 +9,7 @@ import { LongestSoloStreak } from './LongestSoloStreak';
 import { LongestChallengeStreak } from './LongestChallengeStreak';
 import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
 import { LongestTeamStreak } from './LongestTeamStreak';
+import { LongestEverStreak } from './LongestEverStreak';
 
 export interface User {
     _id: string;
@@ -52,6 +53,7 @@ export interface User {
     longestChallengeStreak: LongestChallengeStreak;
     longestTeamMemberStreak: LongestTeamMemberStreak;
     longestTeamStreak: LongestTeamStreak;
+    longestEverStreak: LongestEverStreak;
     email?: string;
     firstName?: string;
     lastName?: string;
