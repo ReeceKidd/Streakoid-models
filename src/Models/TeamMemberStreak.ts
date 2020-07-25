@@ -1,9 +1,11 @@
 import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
+import StreakStatus from '../Types/StreakStatus';
 
 export interface TeamMemberStreak {
     _id: string;
     userId: string;
     teamStreakId: string;
+    status: StreakStatus;
     completedToday: boolean;
     active: boolean;
     currentStreak: {
