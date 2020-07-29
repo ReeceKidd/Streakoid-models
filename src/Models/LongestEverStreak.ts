@@ -8,4 +8,6 @@ export type LongestEverStreak =
     | LongestChallengeStreak
     | LongestTeamMemberStreak
     | LongestTeamStreak
-    | {};
+    | {
+          numberOfDays: number;
+      };
