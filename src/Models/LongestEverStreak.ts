@@ -7,4 +7,5 @@ export type LongestEverStreak =
     | LongestSoloStreak
     | LongestChallengeStreak
     | LongestTeamMemberStreak
-    | LongestTeamStreak;
+    | LongestTeamStreak
+    | {};
