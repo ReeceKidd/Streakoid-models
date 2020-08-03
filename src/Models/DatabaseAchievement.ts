@@ -2,7 +2,8 @@ import AchievementTypes from '../Types/AchievementTypes';
 
 export type DatabaseAchievementType =
     | OneHundredDaySoloStreakDatabaseAchievement
-    | OneHundredDayChallengeStreakDatabaseAchievement;
+    | OneHundredDayChallengeStreakDatabaseAchievement
+    | OneHundredDayTeamMemberStreakDatabaseAchievement;
 
 export interface DatabaseAchievement {
     _id: string;
@@ -18,6 +19,12 @@ export interface OneHundredDaySoloStreakDatabaseAchievement extends DatabaseAchi
 
 export interface OneHundredDayChallengeStreakDatabaseAchievement extends DatabaseAchievement {
     achievementType: AchievementTypes.oneHundredDayChallengeStreak;
+    name: string;
+    description: string;
+}
+
+export interface OneHundredDayTeamMemberStreakDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.oneHundredDayTeamMemberStreak;
     name: string;
     description: string;
 }
