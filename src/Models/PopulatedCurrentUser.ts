@@ -52,4 +52,8 @@ export interface PopulatedCurrentUser {
     email?: string;
     firstName?: string;
     lastName?: string;
+    stripe?: {
+        customer: string;
+        subscription: string;
+    };
 }
