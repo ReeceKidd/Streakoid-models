@@ -13,5 +13,6 @@ export interface FormattedUser {
     pushNotification: PushNotification;
     totalStreakCompletes: number;
     longestEverStreakNumberOfDays: number;
+    longestCurrentStreakNumberOfDays: number;
     username: string;
 }
