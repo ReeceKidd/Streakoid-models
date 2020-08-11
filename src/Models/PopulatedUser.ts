@@ -7,6 +7,7 @@ import { LongestChallengeStreak } from './LongestChallengeStreak';
 import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
 import { LongestTeamStreak } from './LongestTeamStreak';
 import { LongestEverStreak } from './LongestEverStreak';
+import { LongestCurrentStreak } from './LongestCurrentStreak';
 
 export interface PopulatedUser {
     _id: string;
@@ -24,6 +25,7 @@ export interface PopulatedUser {
     longestTeamMemberStreak: LongestTeamMemberStreak;
     longestTeamStreak: LongestTeamStreak;
     longestEverStreak: LongestEverStreak;
+    longestCurrentStreak: LongestCurrentStreak;
     achievements: DatabaseAchievementType[];
     createdAt: string;
     updatedAt: string;
