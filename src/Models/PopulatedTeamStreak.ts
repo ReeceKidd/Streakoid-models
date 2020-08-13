@@ -2,7 +2,7 @@ import StreakStatus from '../Types/StreakStatus';
 import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
 import { PopulatedTeamMember } from './PopulatedTeamMember';
-import { LongestTeamStreak } from './LongestTeamStreak';
+import { LongestTeamStreak } from './LongestEverTeamStreak';
 
 export interface PopulatedTeamStreak {
     _id: string;

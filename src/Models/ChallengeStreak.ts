@@ -1,7 +1,7 @@
 import StreakStatus from '../Types/StreakStatus';
 import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
-import { LongestChallengeStreak } from './LongestChallengeStreak';
+import { LongestChallengeStreak } from './LongestEverChallengeStreak';
 
 export interface ChallengeStreak {
     _id: string;

@@ -1,4 +1,4 @@
-import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
+import { LongestTeamMemberStreak } from './LongestEverTeamMemberStreak';
 import StreakStatus from '../Types/StreakStatus';
 
 export interface TeamMemberStreak {

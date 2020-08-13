@@ -2,10 +2,10 @@ import UserTypes from '../Types/UserTypes';
 import { DatabaseAchievementType } from './DatabaseAchievement';
 import { BasicUser } from './BasicUser';
 import { ProfileImages } from './ProfileImages';
-import { LongestSoloStreak } from './LongestSoloStreak';
-import { LongestChallengeStreak } from './LongestChallengeStreak';
-import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
-import { LongestTeamStreak } from './LongestTeamStreak';
+import { LongestSoloStreak } from './LongestEverSoloStreak';
+import { LongestChallengeStreak } from './LongestEverChallengeStreak';
+import { LongestTeamMemberStreak } from './LongestEverTeamMemberStreak';
+import { LongestTeamStreak } from './LongestEverTeamStreak';
 import { LongestEverStreak } from './LongestEverStreak';
 import { LongestCurrentStreak } from './LongestCurrentStreak';
 

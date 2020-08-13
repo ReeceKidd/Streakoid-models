@@ -1,13 +1,13 @@
-import { LongestSoloStreak } from './LongestSoloStreak';
-import { LongestChallengeStreak } from './LongestChallengeStreak';
-import { LongestTeamMemberStreak } from './LongestTeamMemberStreak';
-import { LongestTeamStreak } from './LongestTeamStreak';
+import { LongestEverSoloStreak } from './LongestEverSoloStreak';
+import { LongestEverChallengeStreak } from './LongestEverChallengeStreak';
+import { LongestEverTeamMemberStreak } from './LongestEverTeamMemberStreak';
+import { LongestEverTeamStreak } from './LongestEverTeamStreak';
 
 export type LongestEverStreak =
-    | LongestSoloStreak
-    | LongestChallengeStreak
-    | LongestTeamMemberStreak
-    | LongestTeamStreak
+    | LongestEverSoloStreak
+    | LongestEverChallengeStreak
+    | LongestEverTeamMemberStreak
+    | LongestEverTeamStreak
     | {
           numberOfDays: number;
       };

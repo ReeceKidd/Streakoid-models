@@ -1,7 +1,7 @@
 import StreakStatus from '../Types/StreakStatus';
 import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
-import { LongestSoloStreak } from './LongestSoloStreak';
+import { LongestSoloStreak } from './LongestEverSoloStreak';
 
 export interface SoloStreak {
     _id: string;
