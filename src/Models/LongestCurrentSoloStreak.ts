@@ -3,7 +3,7 @@ import StreakTypes from '../Types/StreakTypes';
 export interface LongestCurrentSoloStreak {
     soloStreakId: string;
     soloStreakName: string;
-    startDate: Date;
+    startDate: string;
     numberOfDays: number;
     streakType: StreakTypes.solo;
 }

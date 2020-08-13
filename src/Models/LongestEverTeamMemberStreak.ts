@@ -4,8 +4,8 @@ export interface LongestEverTeamMemberStreak {
     teamMemberStreakId: string;
     teamStreakId: string;
     teamStreakName: string;
-    startDate: Date;
+    startDate: string;
     numberOfDays: number;
     streakType: StreakTypes.teamMember;
-    endDate?: Date;
+    endDate?: string;
 }

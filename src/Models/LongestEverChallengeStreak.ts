@@ -4,8 +4,8 @@ export interface LongestEverChallengeStreak {
     challengeStreakId: string;
     challengeId: string;
     challengeName: string;
-    startDate: Date;
+    startDate: string;
     numberOfDays: number;
     streakType: StreakTypes.challenge;
-    endDate?: Date;
+    endDate?: string;
 }
