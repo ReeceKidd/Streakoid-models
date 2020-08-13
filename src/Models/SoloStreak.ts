@@ -1,7 +1,7 @@
 import StreakStatus from '../Types/StreakStatus';
 import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
-import { LongestSoloStreak } from './LongestEverSoloStreak';
+import { LongestEverSoloStreak } from './LongestEverSoloStreak';
 
 export interface SoloStreak {
     _id: string;
@@ -14,7 +14,7 @@ export interface SoloStreak {
     pastStreaks: Array<PastStreak>;
     timezone: string;
     totalTimesTracked: number;
-    longestSoloStreak: LongestSoloStreak;
+    longestSoloStreak: LongestEverSoloStreak;
     updatedAt: string;
     createdAt: string;
     userDefinedIndex?: number;
