@@ -1,4 +1,4 @@
-import { LongestTeamMemberStreak } from './LongestEverTeamMemberStreak';
+import { LongestEverTeamMemberStreak } from './LongestEverTeamMemberStreak';
 import StreakStatus from '../Types/StreakStatus';
 
 export interface TeamMemberStreak {
@@ -20,7 +20,7 @@ export interface TeamMemberStreak {
     }>;
     timezone: string;
     totalTimesTracked: number;
-    longestTeamMemberStreak: LongestTeamMemberStreak;
+    longestTeamMemberStreak: LongestEverTeamMemberStreak;
     createdAt: string;
     updatedAt: string;
 }
