@@ -1,6 +1,7 @@
 import { LongestCurrentSoloStreak } from './LongestCurrentSoloStreak';
 import { LongestCurrentChallengeStreak } from './LongestCurrentChallengeStreak';
 import { LongestCurrentTeamMemberStreak } from './LongestCurrentTeamMemberStreak';
+import StreakTypes from '../Types/StreakTypes';
 
 export type LongestCurrentStreak =
     | LongestCurrentSoloStreak
@@ -8,4 +9,5 @@ export type LongestCurrentStreak =
     | LongestCurrentTeamMemberStreak
     | {
           numberOfDays: number;
+          streakType: StreakTypes.unknown;
       };
