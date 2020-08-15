@@ -3,6 +3,7 @@ import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
 import { PopulatedTeamMember } from './PopulatedTeamMember';
 import { LongestEverTeamStreak } from './LongestEverTeamStreak';
+import VisibilityTypes from '../Types/VisibilityTypes';
 
 export interface PopulatedTeamStreak {
     _id: string;
@@ -21,6 +22,7 @@ export interface PopulatedTeamStreak {
         username: string;
     };
     longestTeamStreak: LongestEverTeamStreak;
+    visibility: VisibilityTypes;
     createdAt: string;
     updatedAt: string;
     inviteKey?: string;

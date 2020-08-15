@@ -2,6 +2,7 @@ import StreakStatus from '../Types/StreakStatus';
 import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
 import { LongestEverSoloStreak } from './LongestEverSoloStreak';
+import VisibilityTypes from '../Types/VisibilityTypes';
 
 export interface SoloStreak {
     _id: string;
@@ -17,6 +18,7 @@ export interface SoloStreak {
     longestSoloStreak: LongestEverSoloStreak;
     updatedAt: string;
     createdAt: string;
+    visibility: VisibilityTypes;
     userDefinedIndex?: number;
     streakDescription?: string;
     numberOfMinutes?: number;

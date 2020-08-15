@@ -2,6 +2,7 @@ import StreakStatus from '../Types/StreakStatus';
 import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
 import { LongestEverChallengeStreak } from './LongestEverChallengeStreak';
+import VisibilityTypes from '../Types/VisibilityTypes';
 
 export interface ChallengeStreak {
     _id: string;
@@ -17,6 +18,7 @@ export interface ChallengeStreak {
     timezone: string;
     totalTimesTracked: number;
     longestChallengeStreak: LongestEverChallengeStreak;
+    visibility: VisibilityTypes;
     updatedAt: string;
     createdAt: string;
     username: string;

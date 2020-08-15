@@ -3,6 +3,7 @@ import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
 import { TeamMember } from './TeamMember';
 import { LongestEverTeamStreak } from './LongestEverTeamStreak';
+import VisibilityTypes from '../Types/VisibilityTypes';
 
 export interface TeamStreak {
     _id: string;
@@ -20,6 +21,7 @@ export interface TeamStreak {
     createdAt: string;
     updatedAt: string;
     inviteKey: string;
+    visibility: VisibilityTypes;
     streakDescription?: string;
     numberOfMinutes?: number;
 }
