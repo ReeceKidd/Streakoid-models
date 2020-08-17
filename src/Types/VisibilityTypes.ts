@@ -1,6 +1,6 @@
 enum VisibilityTypes {
-    everyone = 'Everyone',
-    onlyMe = 'Only me',
+    everyone = 'everyone',
+    onlyMe = 'onlyMe',
 }
 
 export default VisibilityTypes;
