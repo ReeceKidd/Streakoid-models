@@ -1,6 +1,6 @@
 import { LongestEverTeamMemberStreak } from './LongestEverTeamMemberStreak';
 import StreakStatus from '../Types/StreakStatus';
-import VisibilityTypes from '../Types/VisibilityTypes';
+import TeamVisibilityTypes from '../Types/TeamVisibilityTypes';
 
 export interface TeamMemberStreak {
     _id: string;
@@ -22,7 +22,7 @@ export interface TeamMemberStreak {
     timezone: string;
     totalTimesTracked: number;
     longestTeamMemberStreak: LongestEverTeamMemberStreak;
-    visibility: VisibilityTypes;
+    visibility: TeamVisibilityTypes;
     createdAt: string;
     updatedAt: string;
 }

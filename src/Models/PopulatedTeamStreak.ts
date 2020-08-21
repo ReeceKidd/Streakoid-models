@@ -3,7 +3,7 @@ import { CurrentStreak } from './CurrentStreak';
 import { PastStreak } from './PastStreak';
 import { PopulatedTeamMember } from './PopulatedTeamMember';
 import { LongestEverTeamStreak } from './LongestEverTeamStreak';
-import VisibilityTypes from '../Types/VisibilityTypes';
+import VisibilityTypes from '../Types/IndividualVisibilityTypes';
 
 export interface PopulatedTeamStreak {
     _id: string;
