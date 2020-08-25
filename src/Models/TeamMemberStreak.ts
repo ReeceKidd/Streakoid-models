@@ -6,6 +6,7 @@ export interface TeamMemberStreak {
     _id: string;
     userId: string;
     teamStreakId: string;
+    streakName: string;
     status: StreakStatus;
     completedToday: boolean;
     active: boolean;
