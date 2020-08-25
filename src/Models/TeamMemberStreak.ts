@@ -24,6 +24,8 @@ export interface TeamMemberStreak {
     totalTimesTracked: number;
     longestTeamMemberStreak: LongestEverTeamMemberStreak;
     visibility: TeamVisibilityTypes;
+    username: string;
+    userProfileImage: string;
     createdAt: string;
     updatedAt: string;
 }
