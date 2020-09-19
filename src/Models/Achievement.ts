@@ -3,7 +3,8 @@ import AchievementTypes from '../Types/AchievementTypes';
 export type AchievementType =
     | OneHundredDaySoloStreakAchievement
     | OneHundredDayChallengeStreakAchievement
-    | OneHundredDayTeamMemberStreakAchievement;
+    | OneHundredDayTeamMemberStreakAchievement
+    | OneHundredDayTeamStreakAchievement;
 
 export interface OneHundredDaySoloStreakAchievement {
     achievementType: AchievementTypes.oneHundredDaySoloStreak;
@@ -19,6 +20,12 @@ export interface OneHundredDayChallengeStreakAchievement {
 
 export interface OneHundredDayTeamMemberStreakAchievement {
     achievementType: AchievementTypes.oneHundredDayTeamMemberStreak;
+    name: string;
+    description: string;
+}
+
+export interface OneHundredDayTeamStreakAchievement {
+    achievementType: AchievementTypes.oneHundredDayTeamStreak;
     name: string;
     description: string;
 }

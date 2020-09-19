@@ -28,3 +28,9 @@ export interface OneHundredDayTeamMemberStreakDatabaseAchievement extends Databa
     name: string;
     description: string;
 }
+
+export interface OneHundredDayTeamStreakDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.oneHundredDayTeamStreak;
+    name: string;
+    description: string;
+}
