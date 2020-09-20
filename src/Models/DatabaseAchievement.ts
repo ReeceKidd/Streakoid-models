@@ -34,3 +34,51 @@ export interface OneHundredDayTeamStreakDatabaseAchievement extends DatabaseAchi
     name: string;
     description: string;
 }
+
+export interface OneThousandCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.oneThousandCoins;
+    name: string;
+    description: string;
+}
+
+export interface TenThousandCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.tenThousandCoins;
+    name: string;
+    description: string;
+}
+
+export interface TwentyFiveThousandCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.twentyFiveThousandCoins;
+    name: string;
+    description: string;
+}
+
+export interface FiftyThousandCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.fiftyThousandCoins;
+    name: string;
+    description: string;
+}
+
+export interface OneHundredThousandCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.oneHundredThousandCoins;
+    name: string;
+    description: string;
+}
+
+export interface TwoHundredAndFiftyThousandCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.twoHundredAndFiftyThousandCoins;
+    name: string;
+    description: string;
+}
+
+export interface FiveHundredThousandCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.fiveHundredThousandCoins;
+    name: string;
+    description: string;
+}
+
+export interface OneMillionCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.oneMillionCoins;
+    name: string;
+    description: string;
+}
