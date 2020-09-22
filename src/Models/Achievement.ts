@@ -4,7 +4,17 @@ export type AchievementType =
     | OneHundredDaySoloStreakAchievement
     | OneHundredDayChallengeStreakAchievement
     | OneHundredDayTeamMemberStreakAchievement
-    | OneHundredDayTeamStreakAchievement;
+    | OneHundredDayTeamStreakAchievement
+    | OneHundredCoinsAchievement
+    | TwoHundredAndFiftyCoinsAchievement
+    | FiveHundredCoinsAchievement
+    | OneThousandCoinsAchievement
+    | TenThousandCoinsAchievement
+    | FiftyThousandCoinsAchievement
+    | OneHundredThousandCoinsAchievement
+    | TwoHundredAndFiftyCoinsAchievement
+    | FiveHundredThousandCoinsAchievement
+    | OneMillionCoinsAchievement;
 
 export interface OneHundredDaySoloStreakAchievement {
     achievementType: AchievementTypes.oneHundredDaySoloStreak;
@@ -26,6 +36,24 @@ export interface OneHundredDayTeamMemberStreakAchievement {
 
 export interface OneHundredDayTeamStreakAchievement {
     achievementType: AchievementTypes.oneHundredDayTeamStreak;
+    name: string;
+    description: string;
+}
+
+export interface OneHundredCoinsAchievement {
+    achievementType: AchievementTypes.oneHundredCoins;
+    name: string;
+    description: string;
+}
+
+export interface TwoHundredAndFiftyCoinsAchievement {
+    achievementType: AchievementTypes.twoHundredAndFiftyCoins;
+    name: string;
+    description: string;
+}
+
+export interface FiveHundredCoinsAchievement {
+    achievementType: AchievementTypes.fiveHundredCoins;
     name: string;
     description: string;
 }

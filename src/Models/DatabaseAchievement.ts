@@ -3,7 +3,19 @@ import AchievementTypes from '../Types/AchievementTypes';
 export type DatabaseAchievementType =
     | OneHundredDaySoloStreakDatabaseAchievement
     | OneHundredDayChallengeStreakDatabaseAchievement
-    | OneHundredDayTeamMemberStreakDatabaseAchievement;
+    | OneHundredDayTeamMemberStreakDatabaseAchievement
+    | OneHundredDayTeamStreakDatabaseAchievement
+    | OneHundredCoinsDatabaseAchievement
+    | TwoHundredAndFiftyCoinsDatabaseAchievement
+    | FiveHundredCoinsDatabaseAchievement
+    | OneThousandCoinsDatabaseAchievement
+    | TenThousandCoinsDatabaseAchievement
+    | TwentyFiveThousandCoinsDatabaseAchievement
+    | FiftyThousandCoinsDatabaseAchievement
+    | OneHundredThousandCoinsDatabaseAchievement
+    | TwoHundredAndFiftyCoinsDatabaseAchievement
+    | FiveHundredThousandCoinsDatabaseAchievement
+    | OneMillionCoinsDatabaseAchievement;
 
 export interface DatabaseAchievement {
     _id: string;
@@ -31,6 +43,24 @@ export interface OneHundredDayTeamMemberStreakDatabaseAchievement extends Databa
 
 export interface OneHundredDayTeamStreakDatabaseAchievement extends DatabaseAchievement {
     achievementType: AchievementTypes.oneHundredDayTeamStreak;
+    name: string;
+    description: string;
+}
+
+export interface OneHundredCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.oneHundredCoins;
+    name: string;
+    description: string;
+}
+
+export interface TwoHundredAndFiftyCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.twoHundredAndFiftyCoins;
+    name: string;
+    description: string;
+}
+
+export interface FiveHundredCoinsDatabaseAchievement extends DatabaseAchievement {
+    achievementType: AchievementTypes.fiveHundredCoins;
     name: string;
     description: string;
 }
