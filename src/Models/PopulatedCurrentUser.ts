@@ -44,6 +44,7 @@ export interface PopulatedCurrentUser {
     hasCustomPassword: boolean;
     teamStreaksOrder: string[];
     coins: number;
+    totalCoins: number;
     oidXp: number;
     longestSoloStreak: LongestEverSoloStreak;
     longestChallengeStreak: LongestEverChallengeStreak;
