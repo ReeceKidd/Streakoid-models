@@ -14,6 +14,12 @@ enum AchievementTypes {
     twoHundredAndFiftyThousandCoins = 'twoHundredAndFiftyThousandCoins',
     fiveHundredThousandCoins = 'fiveHundredThousandCoins',
     oneMillionCoins = 'oneMillionCoins',
+    tenTotalTracks = 'tenTotalTracks',
+    fiftyTotalTracks = 'fiftyTotalTracks',
+    oneHundredTotalTracks = 'oneHundredTotalTracks',
+    twoHundredAndFiftyTotalTracks = 'twoHundredAndFiftyTotalTracks',
+    fiveHundredTotalTracks = 'fiveHundredTotalTracks',
+    oneThousandTotalTracks = 'oneThousandTotalTracks',
 }
 
 export default AchievementTypes;

@@ -112,3 +112,39 @@ export interface OneMillionCoinsDatabaseAchievement extends DatabaseAchievement 
     name: string;
     description: string;
 }
+
+export interface TenTotalTracksDatabaseAchievement {
+    achievementType: AchievementTypes.tenTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface FiftyTotalTracksDatabaseAchievement {
+    achievementType: AchievementTypes.fiftyTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface OneHundredTotalTracksDatabaseAchievement {
+    achievementType: AchievementTypes.oneHundredTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface TwoHundredAndFiftyTotalTracksDatabaseAchievement {
+    achievementType: AchievementTypes.twoHundredAndFiftyTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface FiveHundredTotalTracksDatabaseAchievement {
+    achievementType: AchievementTypes.fiveHundredTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface OneThousandTotalTracksDatabaseAchievement {
+    achievementType: AchievementTypes.oneThousandTotalTracks;
+    name: string;
+    description: string;
+}

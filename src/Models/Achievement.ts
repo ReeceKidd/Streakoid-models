@@ -105,3 +105,45 @@ export interface OneMillionCoinsAchievement {
     name: string;
     description: string;
 }
+
+export interface OneMillionCoinsAchievement {
+    achievementType: AchievementTypes.oneMillionCoins;
+    name: string;
+    description: string;
+}
+
+export interface TenTotalTracksAchievement {
+    achievementType: AchievementTypes.tenTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface FiftyTotalTracksAchievement {
+    achievementType: AchievementTypes.fiftyTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface OneHundredTotalTracksAchievement {
+    achievementType: AchievementTypes.oneHundredTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface TwoHundredAndFiftyTotalTracksAchievement {
+    achievementType: AchievementTypes.twoHundredAndFiftyTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface FiveHundredTotalTracksAchievement {
+    achievementType: AchievementTypes.fiveHundredTotalTracks;
+    name: string;
+    description: string;
+}
+
+export interface OneThousandTotalTracksAchievement {
+    achievementType: AchievementTypes.oneThousandTotalTracks;
+    name: string;
+    description: string;
+}
