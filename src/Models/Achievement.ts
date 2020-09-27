@@ -14,7 +14,13 @@ export type AchievementType =
     | OneHundredThousandCoinsAchievement
     | TwoHundredAndFiftyCoinsAchievement
     | FiveHundredThousandCoinsAchievement
-    | OneMillionCoinsAchievement;
+    | OneMillionCoinsAchievement
+    | TenTotalTracksAchievement
+    | FiftyTotalTracksAchievement
+    | OneHundredTotalTracksAchievement
+    | TwoHundredAndFiftyTotalTracksAchievement
+    | FiveHundredTotalTracksAchievement
+    | OneThousandTotalTracksAchievement;
 
 export interface OneHundredDaySoloStreakAchievement {
     achievementType: AchievementTypes.oneHundredDaySoloStreak;

@@ -15,7 +15,13 @@ export type DatabaseAchievementType =
     | OneHundredThousandCoinsDatabaseAchievement
     | TwoHundredAndFiftyCoinsDatabaseAchievement
     | FiveHundredThousandCoinsDatabaseAchievement
-    | OneMillionCoinsDatabaseAchievement;
+    | OneMillionCoinsDatabaseAchievement
+    | TenTotalTracksDatabaseAchievement
+    | FiftyTotalTracksDatabaseAchievement
+    | OneHundredTotalTracksDatabaseAchievement
+    | TwoHundredAndFiftyTotalTracksDatabaseAchievement
+    | FiveHundredTotalTracksDatabaseAchievement
+    | OneThousandTotalTracksDatabaseAchievement;
 
 export interface DatabaseAchievement {
     _id: string;
