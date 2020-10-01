@@ -15,12 +15,12 @@ export type AchievementType =
     | TwoHundredAndFiftyCoinsAchievement
     | FiveHundredThousandCoinsAchievement
     | OneMillionCoinsAchievement
-    | TenTotalTracksAchievement
-    | FiftyTotalTracksAchievement
-    | OneHundredTotalTracksAchievement
-    | TwoHundredAndFiftyTotalTracksAchievement
-    | FiveHundredTotalTracksAchievement
-    | OneThousandTotalTracksAchievement;
+    | TenTotalTimesTrackedAchievement
+    | FiftyTotalTimesTrackedAchievement
+    | OneHundredTotalTimesTrackedAchievement
+    | TwoHundredAndFiftyTotalTimesTrackedAchievement
+    | FiveHundredTotalTimesTrackedAchievement
+    | OneThousandTotalTimesTrackedAchievement;
 
 export interface OneHundredDaySoloStreakAchievement {
     achievementType: AchievementTypes.oneHundredDaySoloStreak;
@@ -118,38 +118,38 @@ export interface OneMillionCoinsAchievement {
     description: string;
 }
 
-export interface TenTotalTracksAchievement {
-    achievementType: AchievementTypes.tenTotalTracks;
+export interface TenTotalTimesTrackedAchievement {
+    achievementType: AchievementTypes.tenTotalTimesTracked;
     name: string;
     description: string;
 }
 
-export interface FiftyTotalTracksAchievement {
-    achievementType: AchievementTypes.fiftyTotalTracks;
+export interface FiftyTotalTimesTrackedAchievement {
+    achievementType: AchievementTypes.fiftyTotalTimesTracked;
     name: string;
     description: string;
 }
 
-export interface OneHundredTotalTracksAchievement {
-    achievementType: AchievementTypes.oneHundredTotalTracks;
+export interface OneHundredTotalTimesTrackedAchievement {
+    achievementType: AchievementTypes.oneHundredTotalTimesTracked;
     name: string;
     description: string;
 }
 
-export interface TwoHundredAndFiftyTotalTracksAchievement {
-    achievementType: AchievementTypes.twoHundredAndFiftyTotalTracks;
+export interface TwoHundredAndFiftyTotalTimesTrackedAchievement {
+    achievementType: AchievementTypes.twoHundredAndFiftyTotalTimesTracked;
     name: string;
     description: string;
 }
 
-export interface FiveHundredTotalTracksAchievement {
-    achievementType: AchievementTypes.fiveHundredTotalTracks;
+export interface FiveHundredTotalTimesTrackedAchievement {
+    achievementType: AchievementTypes.fiveHundredTotalTimesTracked;
     name: string;
     description: string;
 }
 
-export interface OneThousandTotalTracksAchievement {
-    achievementType: AchievementTypes.oneThousandTotalTracks;
+export interface OneThousandTotalTimesTrackedAchievement {
+    achievementType: AchievementTypes.oneThousandTotalTimesTracked;
     name: string;
     description: string;
 }
